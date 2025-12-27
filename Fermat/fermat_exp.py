@@ -1,38 +1,29 @@
 #!/usr/bin/env python3
 """
-Fermat - Versión para Experimentación
---------------------------------------
-Versión del algoritmo de Fermat preparada para realizar experimentos
-y recoger estadísticas según los requisitos del trabajo.
+Fermat - Versión para Experimentación (Corregida según Temario)
+---------------------------------------------------------------
+Versión del algoritmo de Fermat preparada para realizar experimentos.
+Ajustado para usar aritmética entera de precisión arbitraria (math.isqrt)
+en lugar de flotante, necesario para los tamaños de clave del trabajo.
 """
 
 import math
 import time
 from typing import List, Dict
 import json
-from collections import defaultdict
 import csv
 
-
 def es_cuadrado_perfecto(n: int) -> bool:
-    """Verifica si un número es un cuadrado perfecto."""
+    """Verifica si un número es un cuadrado perfecto usando aritmética entera."""
     if n < 0:
         return False
-    raiz = int(math.sqrt(n))
-    return raiz * raiz == n
 
+    raiz = math.isqrt(n)
+    return raiz * raiz == n
 
 def fermat_factorizar(n: int, timeout: float = None, max_iteraciones: int = 100000000) -> Dict:
     """
-    Algoritmo de Fermat con medición de rendimiento.
-    
-    Args:
-        n: Número a factorizar
-        timeout: Tiempo máximo en segundos (None = sin límite)
-        max_iteraciones: Número máximo de iteraciones
-        
-    Returns:
-        Diccionario con resultados y métricas
+    Algoritmo de Fermat según Diapositiva 16 del Tema 10-1.
     """
     inicio = time.time()
     bits = n.bit_length()
@@ -50,7 +41,13 @@ def fermat_factorizar(n: int, timeout: float = None, max_iteraciones: int = 1000
             'timeout': False
         }
     
-    A = int(math.ceil(math.sqrt(n)))
+
+    # math.isqrt(n) devuelve floor(sqrt(n))
+    raiz_n = math.isqrt(n)
+    if raiz_n * raiz_n == n:
+        A = raiz_n
+    else:
+        A = raiz_n + 1
     
     for iteracion in range(max_iteraciones):
         # Verificar timeout
@@ -69,11 +66,13 @@ def fermat_factorizar(n: int, timeout: float = None, max_iteraciones: int = 1000
         B = A * A - n
         
         if es_cuadrado_perfecto(B):
-            raiz_B = int(math.sqrt(B))
+
+            raiz_B = math.isqrt(B)
             p = A + raiz_B
             q = A - raiz_B
             
-            if p * q == n and p > 1 and q > 1:
+            # Verificación de seguridad
+            if p * q == n:
                 return {
                     'n': n,
                     'bits': bits,
@@ -87,7 +86,6 @@ def fermat_factorizar(n: int, timeout: float = None, max_iteraciones: int = 1000
         
         A += 1
     
-    # No se encontró en el límite de iteraciones
     return {
         'n': n,
         'bits': bits,
@@ -98,7 +96,6 @@ def fermat_factorizar(n: int, timeout: float = None, max_iteraciones: int = 1000
         'metodo': 'fermat',
         'timeout': False
     }
-
 
 def calcular_estadisticas(resultados: List[Dict]) -> Dict:
     """
@@ -111,7 +108,7 @@ def calcular_estadisticas(resultados: List[Dict]) -> Dict:
     tiempos_exitosos = [r['tiempo_segundos'] for r in resultados if r['exito']]
     iteraciones_exitosas = [r['iteraciones'] for r in resultados if r['exito']]
     
-    # CORRECCIÓN: Verificar tiempos_todos en lugar de tiempos_exitosos
+
     if not tiempos_todos:
         return {
             'num_problemas': len(resultados),
@@ -309,7 +306,7 @@ if __name__ == "__main__":
                 else:
                     print(f"✗ No encontrado")
         
-        # CORRECCIÓN: Guardar las estadísticas calculadas
+
         stats = mostrar_resumen(resultados)
         estadisticas_por_tamanio[bits] = stats
         
@@ -317,7 +314,7 @@ if __name__ == "__main__":
         nombre_archivo = f"fermat_resultados_{bits}bits.json"
         guardar_resultados(resultados, nombre_archivo)
     
-    # CORRECCIÓN: Usar estadísticas guardadas para la tabla Excel
+
     archivo_excel = "fermat_tabla_resumen.csv"
     generar_tabla_excel(estadisticas_por_tamanio, TAMANIOS, archivo_excel)
 
