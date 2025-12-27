@@ -1,0 +1,102 @@
+[
+  {
+    "n": 46923936058011269176244850647917541,
+    "bits": 116,
+    "factores": null,
+    "tiempo_segundos": 60.000160455703735,
+    "iteraciones": 11092655,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 40176315541026420556206889218605407,
+    "bits": 115,
+    "factores": null,
+    "tiempo_segundos": 60.00022077560425,
+    "iteraciones": 11173897,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 40885894310492335980998753557998437,
+    "bits": 115,
+    "factores": null,
+    "tiempo_segundos": 60.000176191329956,
+    "iteraciones": 11150010,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 51782918627560511596339817197722877,
+    "bits": 116,
+    "factores": null,
+    "tiempo_segundos": 60.00036334991455,
+    "iteraciones": 11090082,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 35636756062844685769837791522883043,
+    "bits": 115,
+    "factores": null,
+    "tiempo_segundos": 60.00018548965454,
+    "iteraciones": 11172891,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 37645727677682911028992025074819231,
+    "bits": 115,
+    "factores": null,
+    "tiempo_segundos": 60.00024938583374,
+    "iteraciones": 11183299,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 52705354972573004310252083384552021,
+    "bits": 116,
+    "factores": null,
+    "tiempo_segundos": 60.0002543926239,
+    "iteraciones": 11172836,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 28023491024249219889050979547596487,
+    "bits": 115,
+    "factores": null,
+    "tiempo_segundos": 60.000556230545044,
+    "iteraciones": 11181099,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 61909546718802582998599714053398293,
+    "bits": 116,
+    "factores": null,
+    "tiempo_segundos": 60.00090503692627,
+    "iteraciones": 11122623,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  },
+  {
+    "n": 44559051253107691757483933106076717,
+    "bits": 116,
+    "factores": null,
+    "tiempo_segundos": 60.00002384185791,
+    "iteraciones": 11175263,
+    "exito": false,
+    "metodo": "pollard_rho",
+    "timeout": true
+  }
+]

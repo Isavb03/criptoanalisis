@@ -1,0 +1,1302 @@
+[
+  {
+    "n": 1772760872977141,
+    "bits": 51,
+    "factores": [
+      42085661,
+      42122681
+    ],
+    "tiempo_segundos": 0.008495330810546875,
+    "iteraciones": 7106,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1918301983511383,
+    "bits": 51,
+    "factores": [
+      41973601,
+      45702583
+    ],
+    "tiempo_segundos": 0.0014998912811279297,
+    "iteraciones": 1012,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2904109525158013,
+    "bits": 52,
+    "factores": [
+      48588487,
+      59769499
+    ],
+    "tiempo_segundos": 0.0034995079040527344,
+    "iteraciones": 3186,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2362007912025067,
+    "bits": 52,
+    "factores": [
+      43749403,
+      53989489
+    ],
+    "tiempo_segundos": 0.004499912261962891,
+    "iteraciones": 3803,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2113947459199231,
+    "bits": 51,
+    "factores": [
+      39768823,
+      53155897
+    ],
+    "tiempo_segundos": 0.003500223159790039,
+    "iteraciones": 2790,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2140393041443183,
+    "bits": 51,
+    "factores": [
+      35161003,
+      60874061
+    ],
+    "tiempo_segundos": 0.0010006427764892578,
+    "iteraciones": 924,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2607844893793661,
+    "bits": 52,
+    "factores": [
+      49342927,
+      52851443
+    ],
+    "tiempo_segundos": 0.003500223159790039,
+    "iteraciones": 3297,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3101963308191227,
+    "bits": 52,
+    "factores": [
+      51494609,
+      60238603
+    ],
+    "tiempo_segundos": 0.008999824523925781,
+    "iteraciones": 7504,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3196852079397061,
+    "bits": 52,
+    "factores": [
+      55180799,
+      57934139
+    ],
+    "tiempo_segundos": 0.006499290466308594,
+    "iteraciones": 5009,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3918924347683517,
+    "bits": 52,
+    "factores": [
+      59793271,
+      65541227
+    ],
+    "tiempo_segundos": 0.008503198623657227,
+    "iteraciones": 6989,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2217033501608531,
+    "bits": 51,
+    "factores": [
+      40514911,
+      54721421
+    ],
+    "tiempo_segundos": 0.003489971160888672,
+    "iteraciones": 2897,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2171094571360807,
+    "bits": 51,
+    "factores": [
+      42248917,
+      51388171
+    ],
+    "tiempo_segundos": 0.013002157211303711,
+    "iteraciones": 8232,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2792796343049473,
+    "bits": 52,
+    "factores": [
+      41853551,
+      66727823
+    ],
+    "tiempo_segundos": 0.014999628067016602,
+    "iteraciones": 11337,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3086533064593651,
+    "bits": 52,
+    "factores": [
+      52190717,
+      59139503
+    ],
+    "tiempo_segundos": 0.007498741149902344,
+    "iteraciones": 6096,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1949369152135453,
+    "bits": 51,
+    "factores": [
+      33580669,
+      58050337
+    ],
+    "tiempo_segundos": 0.007001638412475586,
+    "iteraciones": 5870,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3264842229177047,
+    "bits": 52,
+    "factores": [
+      53783539,
+      60703373
+    ],
+    "tiempo_segundos": 0.012000083923339844,
+    "iteraciones": 10358,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2875170456545707,
+    "bits": 52,
+    "factores": [
+      52482607,
+      54783301
+    ],
+    "tiempo_segundos": 0.002000570297241211,
+    "iteraciones": 1598,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1665184233186751,
+    "bits": 51,
+    "factores": [
+      40224901,
+      41396851
+    ],
+    "tiempo_segundos": 0.006499290466308594,
+    "iteraciones": 5086,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2355389974145951,
+    "bits": 52,
+    "factores": [
+      36632503,
+      64297817
+    ],
+    "tiempo_segundos": 0.0020020008087158203,
+    "iteraciones": 2146,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1595410013041879,
+    "bits": 51,
+    "factores": [
+      37502879,
+      42541001
+    ],
+    "tiempo_segundos": 0.005506038665771484,
+    "iteraciones": 4661,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 4031358986877119,
+    "bits": 52,
+    "factores": [
+      61941587,
+      65083237
+    ],
+    "tiempo_segundos": 0.00400996208190918,
+    "iteraciones": 2712,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2208564261927137,
+    "bits": 51,
+    "factores": [
+      34526621,
+      63966997
+    ],
+    "tiempo_segundos": 0.008001089096069336,
+    "iteraciones": 6544,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2669358325611097,
+    "bits": 52,
+    "factores": [
+      46668901,
+      57197797
+    ],
+    "tiempo_segundos": 0.003998994827270508,
+    "iteraciones": 3170,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 4228055471609323,
+    "bits": 52,
+    "factores": [
+      65005043,
+      65041961
+    ],
+    "tiempo_segundos": 0.0020003318786621094,
+    "iteraciones": 1521,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2952229039656917,
+    "bits": 52,
+    "factores": [
+      44359759,
+      66551963
+    ],
+    "tiempo_segundos": 0.004499673843383789,
+    "iteraciones": 3592,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3053793174192883,
+    "bits": 52,
+    "factores": [
+      51853019,
+      58893257
+    ],
+    "tiempo_segundos": 0.007003307342529297,
+    "iteraciones": 5773,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2157579215160709,
+    "bits": 51,
+    "factores": [
+      35496733,
+      60782473
+    ],
+    "tiempo_segundos": 0.0030040740966796875,
+    "iteraciones": 2420,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3092777647937249,
+    "bits": 52,
+    "factores": [
+      53689147,
+      57605267
+    ],
+    "tiempo_segundos": 0.015032529830932617,
+    "iteraciones": 12525,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2265921423977873,
+    "bits": 52,
+    "factores": [
+      36006721,
+      62930513
+    ],
+    "tiempo_segundos": 0.0020024776458740234,
+    "iteraciones": 1402,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1697749701625163,
+    "bits": 51,
+    "factores": [
+      36953377,
+      45943019
+    ],
+    "tiempo_segundos": 0.017001628875732422,
+    "iteraciones": 14277,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2663227514833937,
+    "bits": 52,
+    "factores": [
+      42610531,
+      62501627
+    ],
+    "tiempo_segundos": 0.00500035285949707,
+    "iteraciones": 3600,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3273284048493383,
+    "bits": 52,
+    "factores": [
+      49888093,
+      65612531
+    ],
+    "tiempo_segundos": 0.0025005340576171875,
+    "iteraciones": 1914,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3326111288558857,
+    "bits": 52,
+    "factores": [
+      55311163,
+      60134539
+    ],
+    "tiempo_segundos": 0.006499052047729492,
+    "iteraciones": 5364,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2626115808899431,
+    "bits": 52,
+    "factores": [
+      46428323,
+      56562797
+    ],
+    "tiempo_segundos": 0.0060002803802490234,
+    "iteraciones": 5142,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2568096485988331,
+    "bits": 52,
+    "factores": [
+      43459181,
+      59092151
+    ],
+    "tiempo_segundos": 0.006999969482421875,
+    "iteraciones": 5572,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3834632634918427,
+    "bits": 52,
+    "factores": [
+      60667357,
+      63207511
+    ],
+    "tiempo_segundos": 0.005510091781616211,
+    "iteraciones": 4428,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2999815015092823,
+    "bits": 52,
+    "factores": [
+      48319889,
+      62082407
+    ],
+    "tiempo_segundos": 0.013520479202270508,
+    "iteraciones": 11653,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3263688603052061,
+    "bits": 52,
+    "factores": [
+      54506533,
+      59877017
+    ],
+    "tiempo_segundos": 0.010506391525268555,
+    "iteraciones": 7729,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1946806462525709,
+    "bits": 51,
+    "factores": [
+      36795019,
+      52909511
+    ],
+    "tiempo_segundos": 0.002504110336303711,
+    "iteraciones": 2112,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3491099435410919,
+    "bits": 52,
+    "factores": [
+      56279323,
+      62031653
+    ],
+    "tiempo_segundos": 0.0060079097747802734,
+    "iteraciones": 4295,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2683521286170547,
+    "bits": 52,
+    "factores": [
+      47585221,
+      56394007
+    ],
+    "tiempo_segundos": 0.004499912261962891,
+    "iteraciones": 3922,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2075321304989651,
+    "bits": 51,
+    "factores": [
+      41377691,
+      50155561
+    ],
+    "tiempo_segundos": 0.003500699996948242,
+    "iteraciones": 2971,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1773312714938903,
+    "bits": 51,
+    "factores": [
+      38978507,
+      45494629
+    ],
+    "tiempo_segundos": 0.0025038719177246094,
+    "iteraciones": 2120,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2240013262116079,
+    "bits": 51,
+    "factores": [
+      37893133,
+      59113963
+    ],
+    "tiempo_segundos": 0.003998517990112305,
+    "iteraciones": 3488,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1653332841620771,
+    "bits": 51,
+    "factores": [
+      34103543,
+      48479797
+    ],
+    "tiempo_segundos": 0.005000114440917969,
+    "iteraciones": 4080,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3545438465043121,
+    "bits": 52,
+    "factores": [
+      55226869,
+      64197709
+    ],
+    "tiempo_segundos": 0.00599980354309082,
+    "iteraciones": 4949,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2526736551351277,
+    "bits": 52,
+    "factores": [
+      41262709,
+      61235353
+    ],
+    "tiempo_segundos": 0.004000186920166016,
+    "iteraciones": 3403,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2301673395339319,
+    "bits": 52,
+    "factores": [
+      38718917,
+      59445707
+    ],
+    "tiempo_segundos": 0.017516613006591797,
+    "iteraciones": 12156,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1417244558781221,
+    "bits": 51,
+    "factores": [
+      33989581,
+      41696441
+    ],
+    "tiempo_segundos": 0.0015006065368652344,
+    "iteraciones": 1480,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1516079882901349,
+    "bits": 51,
+    "factores": [
+      34185197,
+      44349017
+    ],
+    "tiempo_segundos": 0.003499269485473633,
+    "iteraciones": 3058,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2653243784957893,
+    "bits": 52,
+    "factores": [
+      44801173,
+      59222641
+    ],
+    "tiempo_segundos": 0.0074999332427978516,
+    "iteraciones": 6132,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3543517487186449,
+    "bits": 52,
+    "factores": [
+      57147547,
+      62006467
+    ],
+    "tiempo_segundos": 0.004498720169067383,
+    "iteraciones": 3825,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1601861168916871,
+    "bits": 51,
+    "factores": [
+      38625079,
+      41472049
+    ],
+    "tiempo_segundos": 0.007001638412475586,
+    "iteraciones": 5908,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2586194977856923,
+    "bits": 52,
+    "factores": [
+      45105209,
+      57336947
+    ],
+    "tiempo_segundos": 0.001504659652709961,
+    "iteraciones": 1374,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2218563068833609,
+    "bits": 51,
+    "factores": [
+      41859119,
+      53000711
+    ],
+    "tiempo_segundos": 0.011013269424438477,
+    "iteraciones": 9162,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3311369059718701,
+    "bits": 52,
+    "factores": [
+      56478781,
+      58630321
+    ],
+    "tiempo_segundos": 0.006999969482421875,
+    "iteraciones": 5644,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2655990743090479,
+    "bits": 52,
+    "factores": [
+      46712723,
+      56857973
+    ],
+    "tiempo_segundos": 0.009010076522827148,
+    "iteraciones": 7526,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3260560977134537,
+    "bits": 52,
+    "factores": [
+      50698009,
+      64313393
+    ],
+    "tiempo_segundos": 0.00652003288269043,
+    "iteraciones": 5643,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3012393061209443,
+    "bits": 52,
+    "factores": [
+      52657009,
+      57207827
+    ],
+    "tiempo_segundos": 0.004999637603759766,
+    "iteraciones": 3309,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1158332944628147,
+    "bits": 51,
+    "factores": [
+      33743233,
+      34327859
+    ],
+    "tiempo_segundos": 0.004008054733276367,
+    "iteraciones": 3481,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2817502267276027,
+    "bits": 52,
+    "factores": [
+      47757197,
+      58996391
+    ],
+    "tiempo_segundos": 0.0005009174346923828,
+    "iteraciones": 468,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1912683986702693,
+    "bits": 51,
+    "factores": [
+      38248751,
+      50006443
+    ],
+    "tiempo_segundos": 0.007003307342529297,
+    "iteraciones": 6084,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2191844540956033,
+    "bits": 51,
+    "factores": [
+      39717833,
+      55185401
+    ],
+    "tiempo_segundos": 0.0010004043579101562,
+    "iteraciones": 911,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2214249015916573,
+    "bits": 51,
+    "factores": [
+      38368399,
+      57710227
+    ],
+    "tiempo_segundos": 0.00700688362121582,
+    "iteraciones": 5961,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2219401590697757,
+    "bits": 51,
+    "factores": [
+      45633433,
+      48635429
+    ],
+    "tiempo_segundos": 0.009515047073364258,
+    "iteraciones": 8170,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2920664046427319,
+    "bits": 52,
+    "factores": [
+      48696751,
+      59976569
+    ],
+    "tiempo_segundos": 0.012520313262939453,
+    "iteraciones": 7238,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3731388894142799,
+    "bits": 52,
+    "factores": [
+      56608499,
+      65915701
+    ],
+    "tiempo_segundos": 0.011003494262695312,
+    "iteraciones": 8925,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3533222558068993,
+    "bits": 52,
+    "factores": [
+      54459133,
+      64878421
+    ],
+    "tiempo_segundos": 0.011512279510498047,
+    "iteraciones": 9580,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2863322007200953,
+    "bits": 52,
+    "factores": [
+      46119497,
+      62084849
+    ],
+    "tiempo_segundos": 0.013334274291992188,
+    "iteraciones": 11201,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2162503891778473,
+    "bits": 51,
+    "factores": [
+      44736077,
+      48339149
+    ],
+    "tiempo_segundos": 0.0045015811920166016,
+    "iteraciones": 3596,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2563352133068477,
+    "bits": 52,
+    "factores": [
+      43377311,
+      59094307
+    ],
+    "tiempo_segundos": 0.007999897003173828,
+    "iteraciones": 6232,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1501805094329693,
+    "bits": 51,
+    "factores": [
+      36553487,
+      41085139
+    ],
+    "tiempo_segundos": 0.006002664566040039,
+    "iteraciones": 5070,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 4364598143290963,
+    "bits": 52,
+    "factores": [
+      65125601,
+      67018163
+    ],
+    "tiempo_segundos": 0.011504173278808594,
+    "iteraciones": 9221,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2055106470428261,
+    "bits": 51,
+    "factores": [
+      38918291,
+      52805671
+    ],
+    "tiempo_segundos": 0.00500035285949707,
+    "iteraciones": 4440,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3310655763580819,
+    "bits": 52,
+    "factores": [
+      56230351,
+      58876669
+    ],
+    "tiempo_segundos": 0.0044994354248046875,
+    "iteraciones": 3496,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2655507706115599,
+    "bits": 52,
+    "factores": [
+      40541489,
+      65500991
+    ],
+    "tiempo_segundos": 0.003000497817993164,
+    "iteraciones": 2466,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3306572220154979,
+    "bits": 52,
+    "factores": [
+      55081907,
+      60030097
+    ],
+    "tiempo_segundos": 0.0069997310638427734,
+    "iteraciones": 5882,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1437266148079967,
+    "bits": 51,
+    "factores": [
+      37765129,
+      38058023
+    ],
+    "tiempo_segundos": 0.015503168106079102,
+    "iteraciones": 12243,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2944936043290667,
+    "bits": 52,
+    "factores": [
+      54062161,
+      54473147
+    ],
+    "tiempo_segundos": 0.011999130249023438,
+    "iteraciones": 10165,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2343181758205031,
+    "bits": 52,
+    "factores": [
+      45527297,
+      51467623
+    ],
+    "tiempo_segundos": 0.0005006790161132812,
+    "iteraciones": 296,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2642650054447031,
+    "bits": 52,
+    "factores": [
+      40610071,
+      65073761
+    ],
+    "tiempo_segundos": 0.0060007572174072266,
+    "iteraciones": 4968,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3245960760166577,
+    "bits": 52,
+    "factores": [
+      55100819,
+      58909483
+    ],
+    "tiempo_segundos": 0.005500316619873047,
+    "iteraciones": 4380,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3043960244180431,
+    "bits": 52,
+    "factores": [
+      49101329,
+      61993439
+    ],
+    "tiempo_segundos": 0.011499643325805664,
+    "iteraciones": 9916,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3048215702556757,
+    "bits": 52,
+    "factores": [
+      53728237,
+      56733961
+    ],
+    "tiempo_segundos": 0.004505157470703125,
+    "iteraciones": 3436,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1857561534674099,
+    "bits": 51,
+    "factores": [
+      38847841,
+      47816339
+    ],
+    "tiempo_segundos": 0.010011434555053711,
+    "iteraciones": 8810,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2773232725600541,
+    "bits": 52,
+    "factores": [
+      47802017,
+      58014973
+    ],
+    "tiempo_segundos": 0.007999897003173828,
+    "iteraciones": 6295,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1934118236217649,
+    "bits": 51,
+    "factores": [
+      43916531,
+      44040779
+    ],
+    "tiempo_segundos": 0.004999876022338867,
+    "iteraciones": 4439,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2063557544771771,
+    "bits": 51,
+    "factores": [
+      37531363,
+      54982217
+    ],
+    "tiempo_segundos": 0.0060002803802490234,
+    "iteraciones": 4776,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3270302055471943,
+    "bits": 52,
+    "factores": [
+      53427263,
+      61210361
+    ],
+    "tiempo_segundos": 0.006000041961669922,
+    "iteraciones": 5391,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2937670944563539,
+    "bits": 52,
+    "factores": [
+      52551767,
+      55900517
+    ],
+    "tiempo_segundos": 0.002000093460083008,
+    "iteraciones": 2008,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2619204559231849,
+    "bits": 52,
+    "factores": [
+      45450049,
+      57628201
+    ],
+    "tiempo_segundos": 0.009501218795776367,
+    "iteraciones": 8262,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3633204410410681,
+    "bits": 52,
+    "factores": [
+      60124639,
+      60427879
+    ],
+    "tiempo_segundos": 0.005002021789550781,
+    "iteraciones": 3916,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3899006245769941,
+    "bits": 52,
+    "factores": [
+      60857723,
+      64067567
+    ],
+    "tiempo_segundos": 0.0064983367919921875,
+    "iteraciones": 5186,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2309075807943397,
+    "bits": 52,
+    "factores": [
+      36678667,
+      62954191
+    ],
+    "tiempo_segundos": 0.004499673843383789,
+    "iteraciones": 4044,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2300510324285731,
+    "bits": 52,
+    "factores": [
+      37468307,
+      61398833
+    ],
+    "tiempo_segundos": 0.0074999332427978516,
+    "iteraciones": 6274,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 2294220235402873,
+    "bits": 52,
+    "factores": [
+      36231521,
+      63321113
+    ],
+    "tiempo_segundos": 0.0015003681182861328,
+    "iteraciones": 1274,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 3340753029681017,
+    "bits": 52,
+    "factores": [
+      55042171,
+      60694427
+    ],
+    "tiempo_segundos": 0.0010006427764892578,
+    "iteraciones": 657,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1951908946527677,
+    "bits": 51,
+    "factores": [
+      42487787,
+      45940471
+    ],
+    "tiempo_segundos": 0.004003286361694336,
+    "iteraciones": 3344,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1793110368530251,
+    "bits": 51,
+    "factores": [
+      40707509,
+      44048639
+    ],
+    "tiempo_segundos": 0.002500295639038086,
+    "iteraciones": 2420,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  },
+  {
+    "n": 1470132522384419,
+    "bits": 51,
+    "factores": [
+      37126039,
+      39598421
+    ],
+    "tiempo_segundos": 0.009006500244140625,
+    "iteraciones": 6799,
+    "exito": true,
+    "metodo": "pollard_rho",
+    "timeout": false
+  }
+]

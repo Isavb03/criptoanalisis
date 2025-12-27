@@ -1,0 +1,1399 @@
+[
+  {
+    "n": 9224071,
+    "bits": 24,
+    "factores": [
+      2659,
+      3469
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 33,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 34
+  },
+  {
+    "n": 5152891,
+    "bits": 23,
+    "factores": [
+      2267,
+      2273
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 70,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 71
+  },
+  {
+    "n": 11611997,
+    "bits": 24,
+    "factores": [
+      2963,
+      3919
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 652,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 653
+  },
+  {
+    "n": 9024361,
+    "bits": 24,
+    "factores": [
+      2719,
+      3319
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 11905279,
+    "bits": 24,
+    "factores": [
+      3347,
+      3557
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 126,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 127
+  },
+  {
+    "n": 11948191,
+    "bits": 24,
+    "factores": [
+      3307,
+      3613
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 28,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 29
+  },
+  {
+    "n": 9152707,
+    "bits": 24,
+    "factores": [
+      2963,
+      3089
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 192,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 193
+  },
+  {
+    "n": 15046831,
+    "bits": 24,
+    "factores": [
+      3793,
+      3967
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 12440543,
+    "bits": 24,
+    "factores": [
+      3449,
+      3607
+    ],
+    "tiempo_segundos": 0.0005004405975341797,
+    "iteraciones": 430,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 431
+  },
+  {
+    "n": 7202623,
+    "bits": 23,
+    "factores": [
+      2143,
+      3361
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 14797147,
+    "bits": 24,
+    "factores": [
+      3617,
+      4091
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 112,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 113
+  },
+  {
+    "n": 7848161,
+    "bits": 23,
+    "factores": [
+      2099,
+      3739
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 88,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 89
+  },
+  {
+    "n": 9002699,
+    "bits": 24,
+    "factores": [
+      2693,
+      3343
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 556,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 557
+  },
+  {
+    "n": 7410373,
+    "bits": 23,
+    "factores": [
+      2657,
+      2789
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 40,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 41
+  },
+  {
+    "n": 8816411,
+    "bits": 24,
+    "factores": [
+      2903,
+      3037
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 22,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 23
+  },
+  {
+    "n": 8490551,
+    "bits": 24,
+    "factores": [
+      2371,
+      3581
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 9008399,
+    "bits": 24,
+    "factores": [
+      2237,
+      4027
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 42,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 43
+  },
+  {
+    "n": 8231117,
+    "bits": 23,
+    "factores": [
+      2381,
+      3457
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 8899547,
+    "bits": 24,
+    "factores": [
+      2221,
+      4007
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 8317481,
+    "bits": 23,
+    "factores": [
+      2437,
+      3413
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 28,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 29
+  },
+  {
+    "n": 12123127,
+    "bits": 24,
+    "factores": [
+      3361,
+      3607
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 8277583,
+    "bits": 23,
+    "factores": [
+      2239,
+      3697
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 10339159,
+    "bits": 24,
+    "factores": [
+      3049,
+      3391
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 112,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 113
+  },
+  {
+    "n": 13840837,
+    "bits": 24,
+    "factores": [
+      3449,
+      4013
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 58,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 59
+  },
+  {
+    "n": 13872499,
+    "bits": 24,
+    "factores": [
+      3529,
+      3931
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 13,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 14
+  },
+  {
+    "n": 9541621,
+    "bits": 24,
+    "factores": [
+      2713,
+      3517
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 112,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 113
+  },
+  {
+    "n": 7465807,
+    "bits": 23,
+    "factores": [
+      2347,
+      3181
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 22,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 23
+  },
+  {
+    "n": 15754441,
+    "bits": 24,
+    "factores": [
+      3851,
+      4091
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 8572687,
+    "bits": 24,
+    "factores": [
+      2161,
+      3967
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 6986251,
+    "bits": 23,
+    "factores": [
+      2269,
+      3079
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 9921539,
+    "bits": 24,
+    "factores": [
+      3119,
+      3181
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 52,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 53
+  },
+  {
+    "n": 6380399,
+    "bits": 23,
+    "factores": [
+      2357,
+      2707
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 30,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 31
+  },
+  {
+    "n": 12611647,
+    "bits": 24,
+    "factores": [
+      3373,
+      3739
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 88,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 89
+  },
+  {
+    "n": 7221593,
+    "bits": 23,
+    "factores": [
+      2141,
+      3373
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 106,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 107
+  },
+  {
+    "n": 5664319,
+    "bits": 23,
+    "factores": [
+      2371,
+      2389
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 10207829,
+    "bits": 24,
+    "factores": [
+      3181,
+      3209
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 52,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 53
+  },
+  {
+    "n": 10397533,
+    "bits": 24,
+    "factores": [
+      2999,
+      3467
+    ],
+    "tiempo_segundos": 0.0009996891021728516,
+    "iteraciones": 1498,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 1499
+  },
+  {
+    "n": 9620267,
+    "bits": 24,
+    "factores": [
+      2837,
+      3391
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 112,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 113
+  },
+  {
+    "n": 8841689,
+    "bits": 24,
+    "factores": [
+      2389,
+      3701
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 10241573,
+    "bits": 24,
+    "factores": [
+      2927,
+      3499
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 18,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 19
+  },
+  {
+    "n": 4558007,
+    "bits": 23,
+    "factores": [
+      2069,
+      2203
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 46,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 47
+  },
+  {
+    "n": 12838769,
+    "bits": 24,
+    "factores": [
+      3469,
+      3701
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 33,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 34
+  },
+  {
+    "n": 9600089,
+    "bits": 24,
+    "factores": [
+      2777,
+      3457
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 12168649,
+    "bits": 24,
+    "factores": [
+      3313,
+      3673
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 16,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 17
+  },
+  {
+    "n": 8043901,
+    "bits": 23,
+    "factores": [
+      2579,
+      3119
+    ],
+    "tiempo_segundos": 0.0004992485046386719,
+    "iteraciones": 1288,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 1289
+  },
+  {
+    "n": 11341903,
+    "bits": 24,
+    "factores": [
+      3329,
+      3407
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 12,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 13
+  },
+  {
+    "n": 5678689,
+    "bits": 23,
+    "factores": [
+      2383,
+      2383
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 396,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 397
+  },
+  {
+    "n": 11680741,
+    "bits": 24,
+    "factores": [
+      3271,
+      3571
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 16,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 17
+  },
+  {
+    "n": 10334603,
+    "bits": 24,
+    "factores": [
+      2621,
+      3943
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 72,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 73
+  },
+  {
+    "n": 15120439,
+    "bits": 24,
+    "factores": [
+      3727,
+      4057
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 22,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 23
+  },
+  {
+    "n": 11850389,
+    "bits": 24,
+    "factores": [
+      2953,
+      4013
+    ],
+    "tiempo_segundos": 0.0005004405975341797,
+    "iteraciones": 40,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 41
+  },
+  {
+    "n": 8840633,
+    "bits": 24,
+    "factores": [
+      2621,
+      3373
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 130,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 131
+  },
+  {
+    "n": 11052229,
+    "bits": 24,
+    "factores": [
+      2803,
+      3943
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 72,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 73
+  },
+  {
+    "n": 6861563,
+    "bits": 23,
+    "factores": [
+      2207,
+      3109
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 12802841,
+    "bits": 24,
+    "factores": [
+      3499,
+      3659
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 52,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 53
+  },
+  {
+    "n": 7722433,
+    "bits": 23,
+    "factores": [
+      2411,
+      3203
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 240,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 241
+  },
+  {
+    "n": 11760097,
+    "bits": 24,
+    "factores": [
+      3323,
+      3539
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 60,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 61
+  },
+  {
+    "n": 9029749,
+    "bits": 24,
+    "factores": [
+      2609,
+      3461
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 162,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 163
+  },
+  {
+    "n": 12744779,
+    "bits": 24,
+    "factores": [
+      3559,
+      3581
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 178,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 179
+  },
+  {
+    "n": 4909561,
+    "bits": 23,
+    "factores": [
+      2099,
+      2339
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 166,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 167
+  },
+  {
+    "n": 9676547,
+    "bits": 24,
+    "factores": [
+      2971,
+      3257
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 8247073,
+    "bits": 23,
+    "factores": [
+      2789,
+      2957
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 40,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 41
+  },
+  {
+    "n": 11308931,
+    "bits": 24,
+    "factores": [
+      3221,
+      3511
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 8669809,
+    "bits": 24,
+    "factores": [
+      2137,
+      4057
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 25,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 26
+  },
+  {
+    "n": 8876389,
+    "bits": 24,
+    "factores": [
+      2689,
+      3301
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 7,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 8
+  },
+  {
+    "n": 11347361,
+    "bits": 24,
+    "factores": [
+      3167,
+      3583
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 198,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 199
+  },
+  {
+    "n": 11050433,
+    "bits": 24,
+    "factores": [
+      3191,
+      3463
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 28,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 29
+  },
+  {
+    "n": 6110417,
+    "bits": 23,
+    "factores": [
+      2269,
+      2693
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 8237563,
+    "bits": 23,
+    "factores": [
+      2473,
+      3331
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 12529133,
+    "bits": 24,
+    "factores": [
+      3389,
+      3697
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 11364589,
+    "bits": 24,
+    "factores": [
+      3079,
+      3691
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 18,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 19
+  },
+  {
+    "n": 8353831,
+    "bits": 23,
+    "factores": [
+      2663,
+      3137
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 13,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 14
+  },
+  {
+    "n": 8473081,
+    "bits": 24,
+    "factores": null,
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "d_igual_n"
+  },
+  {
+    "n": 13392157,
+    "bits": 24,
+    "factores": [
+      3301,
+      4057
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 8076883,
+    "bits": 23,
+    "factores": [
+      2833,
+      2851
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 18,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 19
+  },
+  {
+    "n": 8929663,
+    "bits": 24,
+    "factores": [
+      2539,
+      3517
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 46,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 47
+  },
+  {
+    "n": 6581101,
+    "bits": 23,
+    "factores": [
+      2267,
+      2903
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 102,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 103
+  },
+  {
+    "n": 11213171,
+    "bits": 24,
+    "factores": [
+      2749,
+      4079
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 228,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 229
+  },
+  {
+    "n": 9170243,
+    "bits": 24,
+    "factores": [
+      2753,
+      3331
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 8606167,
+    "bits": 24,
+    "factores": [
+      2593,
+      3319
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 7119841,
+    "bits": 23,
+    "factores": [
+      2551,
+      2791
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 9,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 10
+  },
+  {
+    "n": 11268371,
+    "bits": 24,
+    "factores": [
+      2917,
+      3863
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 14,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 15
+  },
+  {
+    "n": 9863977,
+    "bits": 24,
+    "factores": [
+      2687,
+      3671
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 12850237,
+    "bits": 24,
+    "factores": [
+      3259,
+      3943
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 72,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 73
+  },
+  {
+    "n": 8020279,
+    "bits": 23,
+    "factores": [
+      2099,
+      3821
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 190,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 191
+  },
+  {
+    "n": 8957209,
+    "bits": 24,
+    "factores": [
+      2531,
+      3539
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 22,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 23
+  },
+  {
+    "n": 6212329,
+    "bits": 23,
+    "factores": [
+      2179,
+      2851
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 18,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 19
+  },
+  {
+    "n": 8864677,
+    "bits": 24,
+    "factores": [
+      2357,
+      3761
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 30,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 31
+  },
+  {
+    "n": 11313101,
+    "bits": 24,
+    "factores": [
+      2909,
+      3889
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 8,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9
+  },
+  {
+    "n": 9863681,
+    "bits": 24,
+    "factores": [
+      2819,
+      3499
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 52,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 53
+  },
+  {
+    "n": 11741657,
+    "bits": 24,
+    "factores": [
+      3301,
+      3557
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 8464399,
+    "bits": 24,
+    "factores": [
+      2671,
+      3169
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 10,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11
+  },
+  {
+    "n": 8668321,
+    "bits": 24,
+    "factores": [
+      2213,
+      3917
+    ],
+    "tiempo_segundos": 0.0005004405975341797,
+    "iteraciones": 78,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 79
+  },
+  {
+    "n": 7453913,
+    "bits": 23,
+    "factores": [
+      2609,
+      2857
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 12265663,
+    "bits": 24,
+    "factores": [
+      3307,
+      3709
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 28,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 29
+  },
+  {
+    "n": 9054373,
+    "bits": 24,
+    "factores": [
+      2333,
+      3881
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 52,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 53
+  },
+  {
+    "n": 14435581,
+    "bits": 24,
+    "factores": [
+      3539,
+      4079
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 60,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 61
+  },
+  {
+    "n": 6910061,
+    "bits": 23,
+    "factores": [
+      2521,
+      2741
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 8265967,
+    "bits": 23,
+    "factores": [
+      2269,
+      3643
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 7
+  },
+  {
+    "n": 9321859,
+    "bits": 24,
+    "factores": [
+      2749,
+      3391
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 112,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 113
+  }
+]

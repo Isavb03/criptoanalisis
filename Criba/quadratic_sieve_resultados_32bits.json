@@ -1,0 +1,119 @@
+[
+  {
+    "n": 2326706177,
+    "bits": 32,
+    "factores": null,
+    "tiempo_segundos": 0.08602309226989746,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "no_factorizaci\u00f3n_v\u00e1lida",
+    "relaciones_encontradas": 12
+  },
+  {
+    "n": 2098407403,
+    "bits": 31,
+    "factores": null,
+    "tiempo_segundos": 0.08401083946228027,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 2595694313,
+    "bits": 32,
+    "factores": [
+      48761,
+      53233
+    ],
+    "tiempo_segundos": 0.004998683929443359,
+    "iteraciones": 6028,
+    "exito": true,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "B": 59,
+    "relaciones_encontradas": 16
+  },
+  {
+    "n": 1565129603,
+    "bits": 31,
+    "factores": null,
+    "tiempo_segundos": 0.08489418029785156,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1712915497,
+    "bits": 31,
+    "factores": null,
+    "tiempo_segundos": 0.049019813537597656,
+    "iteraciones": 53292,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "no_factorizaci\u00f3n_v\u00e1lida",
+    "relaciones_encontradas": 14
+  },
+  {
+    "n": 3509317919,
+    "bits": 32,
+    "factores": null,
+    "tiempo_segundos": 0.07306742668151855,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 3446333393,
+    "bits": 32,
+    "factores": null,
+    "tiempo_segundos": 0.07904767990112305,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1868829877,
+    "bits": 31,
+    "factores": null,
+    "tiempo_segundos": 0.08252978324890137,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 2610071791,
+    "bits": 32,
+    "factores": null,
+    "tiempo_segundos": 0.07793307304382324,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 2629006447,
+    "bits": 32,
+    "factores": null,
+    "tiempo_segundos": 0.007503986358642578,
+    "iteraciones": 6766,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "no_factorizaci\u00f3n_v\u00e1lida",
+    "relaciones_encontradas": 16
+  }
+]

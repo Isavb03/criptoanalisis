@@ -1,0 +1,1302 @@
+[
+  {
+    "n": 362017749337,
+    "bits": 39,
+    "factores": [
+      559093,
+      647509
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1622,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 733970589283,
+    "bits": 40,
+    "factores": [
+      812183,
+      903701
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 1222,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 767155779287,
+    "bits": 40,
+    "factores": [
+      760267,
+      1009061
+    ],
+    "tiempo_segundos": 0.0015001296997070312,
+    "iteraciones": 8790,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 594502117397,
+    "bits": 40,
+    "factores": [
+      618287,
+      961531
+    ],
+    "tiempo_segundos": 0.0035016536712646484,
+    "iteraciones": 18870,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 517770941557,
+    "bits": 39,
+    "factores": [
+      675221,
+      766817
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 1456,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 999556838299,
+    "bits": 40,
+    "factores": [
+      997097,
+      1002467
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 4,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 328226726999,
+    "bits": 39,
+    "factores": [
+      526373,
+      623563
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 2058,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 414583170949,
+    "bits": 39,
+    "factores": [
+      565489,
+      733141
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 5434,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 573300324539,
+    "bits": 40,
+    "factores": [
+      550969,
+      1040531
+    ],
+    "tiempo_segundos": 0.007500171661376953,
+    "iteraciones": 38585,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 571521341359,
+    "bits": 40,
+    "factores": [
+      743221,
+      768979
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 110,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 407327274899,
+    "bits": 39,
+    "factores": [
+      627709,
+      648911
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 89,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 899580715477,
+    "bits": 40,
+    "factores": [
+      893213,
+      1007129
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1709,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 532209710293,
+    "bits": 39,
+    "factores": [
+      594889,
+      894637
+    ],
+    "tiempo_segundos": 0.0035016536712646484,
+    "iteraciones": 15236,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 580163282327,
+    "bits": 40,
+    "factores": [
+      557269,
+      1041083
+    ],
+    "tiempo_segundos": 0.006997585296630859,
+    "iteraciones": 37492,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 644515309019,
+    "bits": 40,
+    "factores": [
+      624847,
+      1031477
+    ],
+    "tiempo_segundos": 0.004999876022338867,
+    "iteraciones": 25345,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 495668788421,
+    "bits": 39,
+    "factores": [
+      674483,
+      734887
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 648,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 632091088357,
+    "bits": 40,
+    "factores": [
+      716633,
+      882029
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 4290,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 593513093977,
+    "bits": 40,
+    "factores": [
+      720289,
+      823993
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 1743,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 565080931091,
+    "bits": 40,
+    "factores": [
+      626693,
+      901687
+    ],
+    "tiempo_segundos": 0.002500295639038086,
+    "iteraciones": 12472,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 649053636533,
+    "bits": 40,
+    "factores": [
+      789823,
+      821771
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 159,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 743819459233,
+    "bits": 40,
+    "factores": [
+      808307,
+      920219
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1814,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 806895568727,
+    "bits": 40,
+    "factores": [
+      842147,
+      958141
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1871,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 713053501441,
+    "bits": 40,
+    "factores": [
+      784939,
+      908419
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 2255,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 673301240503,
+    "bits": 40,
+    "factores": [
+      729979,
+      922357
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 5619,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 380571235147,
+    "bits": 39,
+    "factores": [
+      572657,
+      664571
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 1710,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 712969771097,
+    "bits": 40,
+    "factores": [
+      716951,
+      994447
+    ],
+    "tiempo_segundos": 0.0025000572204589844,
+    "iteraciones": 11324,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 523431267133,
+    "bits": 39,
+    "factores": [
+      636653,
+      822161
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 5922,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 390577385089,
+    "bits": 39,
+    "factores": [
+      569869,
+      685381
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 2664,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 987830778449,
+    "bits": 40,
+    "factores": [
+      957851,
+      1031299
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 679,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 403685092289,
+    "bits": 39,
+    "factores": [
+      552011,
+      731299
+    ],
+    "tiempo_segundos": 0.0015001296997070312,
+    "iteraciones": 6293,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 961173483313,
+    "bits": 40,
+    "factores": [
+      959009,
+      1002257
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 239,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 609601044379,
+    "bits": 40,
+    "factores": [
+      730069,
+      834991
+    ],
+    "tiempo_segundos": 0.000499725341796875,
+    "iteraciones": 1761,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 426332977597,
+    "bits": 39,
+    "factores": [
+      621043,
+      686479
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 820,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 625161500503,
+    "bits": 40,
+    "factores": [
+      710389,
+      880027
+    ],
+    "tiempo_segundos": 0.0010001659393310547,
+    "iteraciones": 4537,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 314519116453,
+    "bits": 39,
+    "factores": [
+      549013,
+      572881
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 127,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 499241226751,
+    "bits": 39,
+    "factores": [
+      581753,
+      858167
+    ],
+    "tiempo_segundos": 0.003000020980834961,
+    "iteraciones": 13390,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 639263676341,
+    "bits": 40,
+    "factores": [
+      720899,
+      886759
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 4290,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 407981455223,
+    "bits": 39,
+    "factores": [
+      580759,
+      702497
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 2894,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 493652870093,
+    "bits": 39,
+    "factores": [
+      537373,
+      918641
+    ],
+    "tiempo_segundos": 0.00500035285949707,
+    "iteraciones": 25403,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 611661773279,
+    "bits": 40,
+    "factores": [
+      750613,
+      814883
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 660,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 529099862077,
+    "bits": 39,
+    "factores": [
+      537637,
+      984121
+    ],
+    "tiempo_segundos": 0.006500244140625,
+    "iteraciones": 33487,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 906406708637,
+    "bits": 40,
+    "factores": [
+      937883,
+      966439
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 108,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 440966006639,
+    "bits": 39,
+    "factores": [
+      645893,
+      682723
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 256,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 844562331299,
+    "bits": 40,
+    "factores": [
+      899233,
+      939203
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 218,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 1038298023601,
+    "bits": 40,
+    "factores": [
+      1015507,
+      1022443
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 6,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 933363331513,
+    "bits": 40,
+    "factores": [
+      946663,
+      985951
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 200,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 799332269971,
+    "bits": 40,
+    "factores": [
+      814783,
+      981037
+    ],
+    "tiempo_segundos": 0.0004992485046386719,
+    "iteraciones": 3857,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 593544649799,
+    "bits": 40,
+    "factores": [
+      610823,
+      971713
+    ],
+    "tiempo_segundos": 0.004000186920166016,
+    "iteraciones": 20850,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 1007502404147,
+    "bits": 40,
+    "factores": [
+      963751,
+      1045397
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 830,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 659154653177,
+    "bits": 40,
+    "factores": [
+      695677,
+      947501
+    ],
+    "tiempo_segundos": 0.0019998550415039062,
+    "iteraciones": 9706,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 656336626571,
+    "bits": 40,
+    "factores": [
+      648779,
+      1011649
+    ],
+    "tiempo_segundos": 0.004004478454589844,
+    "iteraciones": 20068,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 629771057753,
+    "bits": 40,
+    "factores": [
+      738919,
+      852287
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 2022,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 712400463223,
+    "bits": 40,
+    "factores": [
+      745631,
+      955433
+    ],
+    "tiempo_segundos": 0.0020041465759277344,
+    "iteraciones": 6494,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 640128725711,
+    "bits": 40,
+    "factores": [
+      702511,
+      911201
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 6776,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 671409628913,
+    "bits": 40,
+    "factores": [
+      765229,
+      877397
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 1918,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 502391721539,
+    "bits": 39,
+    "factores": [
+      581447,
+      864037
+    ],
+    "tiempo_segundos": 0.003504037857055664,
+    "iteraciones": 13947,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 629125321793,
+    "bits": 40,
+    "factores": [
+      755707,
+      832499
+    ],
+    "tiempo_segundos": 0.0005004405975341797,
+    "iteraciones": 929,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 461546064773,
+    "bits": 39,
+    "factores": [
+      629383,
+      733331
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 1986,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 745840318877,
+    "bits": 40,
+    "factores": [
+      842351,
+      885427
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 269,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 780274833341,
+    "bits": 40,
+    "factores": [
+      865231,
+      901811
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 190,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 689158288081,
+    "bits": 40,
+    "factores": [
+      713653,
+      965677
+    ],
+    "tiempo_segundos": 0.0015010833740234375,
+    "iteraciones": 9510,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 875335289033,
+    "bits": 40,
+    "factores": [
+      898553,
+      974161
+    ],
+    "tiempo_segundos": 0.0005023479461669922,
+    "iteraciones": 764,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 705874190887,
+    "bits": 40,
+    "factores": [
+      763843,
+      924109
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 3813,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 960840074797,
+    "bits": 40,
+    "factores": [
+      916931,
+      1047887
+    ],
+    "tiempo_segundos": 0.0005018711090087891,
+    "iteraciones": 2185,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 333858376669,
+    "bits": 39,
+    "factores": [
+      525719,
+      635051
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 2581,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 378214352539,
+    "bits": 39,
+    "factores": [
+      569479,
+      664141
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1819,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 816018703667,
+    "bits": 40,
+    "factores": [
+      863299,
+      945233
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 929,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 847089988279,
+    "bits": 40,
+    "factores": [
+      858029,
+      987251
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 2266,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 407371900657,
+    "bits": 39,
+    "factores": [
+      588949,
+      691693
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 2065,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 581962155323,
+    "bits": 40,
+    "factores": [
+      682291,
+      852953
+    ],
+    "tiempo_segundos": 0.0010004043579101562,
+    "iteraciones": 4758,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 495044683141,
+    "bits": 39,
+    "factores": [
+      652079,
+      759179
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 2035,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 396814053043,
+    "bits": 39,
+    "factores": [
+      580213,
+      683911
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 2131,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 566120727037,
+    "bits": 40,
+    "factores": [
+      629687,
+      899051
+    ],
+    "tiempo_segundos": 0.0025014877319335938,
+    "iteraciones": 11960,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 564581752607,
+    "bits": 40,
+    "factores": [
+      711649,
+      793343
+    ],
+    "tiempo_segundos": 0.0005023479461669922,
+    "iteraciones": 1110,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 769056877621,
+    "bits": 40,
+    "factores": [
+      856181,
+      898241
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 253,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 495862958111,
+    "bits": 39,
+    "factores": [
+      527557,
+      939923
+    ],
+    "tiempo_segundos": 0.00550389289855957,
+    "iteraciones": 29565,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 510794126723,
+    "bits": 39,
+    "factores": [
+      570853,
+      894791
+    ],
+    "tiempo_segundos": 0.003500223159790039,
+    "iteraciones": 18124,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 694661436523,
+    "bits": 40,
+    "factores": [
+      788903,
+      880541
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1259,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 614653017443,
+    "bits": 40,
+    "factores": [
+      639839,
+      960637
+    ],
+    "tiempo_segundos": 0.0025000572204589844,
+    "iteraciones": 16240,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 509525332571,
+    "bits": 39,
+    "factores": [
+      668959,
+      761669
+    ],
+    "tiempo_segundos": 0.0010013580322265625,
+    "iteraciones": 1504,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 562534510493,
+    "bits": 40,
+    "factores": [
+      607037,
+      926689
+    ],
+    "tiempo_segundos": 0.0030024051666259766,
+    "iteraciones": 16840,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 945098124379,
+    "bits": 40,
+    "factores": [
+      903761,
+      1045739
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 2589,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 468780678419,
+    "bits": 39,
+    "factores": [
+      526459,
+      890441
+    ],
+    "tiempo_segundos": 0.004499673843383789,
+    "iteraciones": 23775,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 576280503109,
+    "bits": 40,
+    "factores": [
+      574507,
+      1003087
+    ],
+    "tiempo_segundos": 0.0055103302001953125,
+    "iteraciones": 29666,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 333336366107,
+    "bits": 39,
+    "factores": [
+      555221,
+      600367
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 442,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 821804926703,
+    "bits": 40,
+    "factores": [
+      808579,
+      1016357
+    ],
+    "tiempo_segundos": 0.0009999275207519531,
+    "iteraciones": 5934,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 481306109161,
+    "bits": 39,
+    "factores": [
+      642359,
+      749279
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 2057,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 577460410369,
+    "bits": 40,
+    "factores": [
+      559177,
+      1032697
+    ],
+    "tiempo_segundos": 0.0070056915283203125,
+    "iteraciones": 36029,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 954331545521,
+    "bits": 40,
+    "factores": [
+      922729,
+      1034249
+    ],
+    "tiempo_segundos": 0.0005002021789550781,
+    "iteraciones": 1591,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 644468843437,
+    "bits": 40,
+    "factores": [
+      687311,
+      937667
+    ],
+    "tiempo_segundos": 0.0020012855529785156,
+    "iteraciones": 9701,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 473500861403,
+    "bits": 39,
+    "factores": [
+      541631,
+      874213
+    ],
+    "tiempo_segundos": 0.003502368927001953,
+    "iteraciones": 19809,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 916624326713,
+    "bits": 40,
+    "factores": [
+      874619,
+      1048027
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 3919,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 519079273501,
+    "bits": 39,
+    "factores": [
+      605173,
+      857737
+    ],
+    "tiempo_segundos": 0.0019998550415039062,
+    "iteraciones": 10984,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 569036186249,
+    "bits": 40,
+    "factores": [
+      603791,
+      942439
+    ],
+    "tiempo_segundos": 0.003500223159790039,
+    "iteraciones": 18771,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 512174988011,
+    "bits": 39,
+    "factores": [
+      608471,
+      841741
+    ],
+    "tiempo_segundos": 0.0014998912811279297,
+    "iteraciones": 9442,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 588014014979,
+    "bits": 40,
+    "factores": [
+      646339,
+      909761
+    ],
+    "tiempo_segundos": 0.002000093460083008,
+    "iteraciones": 11230,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 687875720387,
+    "bits": 40,
+    "factores": [
+      688867,
+      998561
+    ],
+    "tiempo_segundos": 0.002499818801879883,
+    "iteraciones": 14332,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 615004848811,
+    "bits": 40,
+    "factores": [
+      627101,
+      980711
+    ],
+    "tiempo_segundos": 0.003500223159790039,
+    "iteraciones": 19684,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 497914805021,
+    "bits": 39,
+    "factores": [
+      548039,
+      908539
+    ],
+    "tiempo_segundos": 0.004499673843383789,
+    "iteraciones": 22659,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 735037111759,
+    "bits": 40,
+    "factores": [
+      807647,
+      910097
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 1529,
+    "exito": true,
+    "metodo": "fermat",
+    "timeout": false
+  }
+]

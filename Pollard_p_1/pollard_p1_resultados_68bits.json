@@ -1,0 +1,1231 @@
+[
+  {
+    "n": 138304598357526357103,
+    "bits": 67,
+    "factores": [
+      11311248691,
+      12227173333
+    ],
+    "tiempo_segundos": 0.0004999637603759766,
+    "iteraciones": 156,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 157
+  },
+  {
+    "n": 83601145264664033117,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14252710342407227,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 160175023951866800159,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1840507984161377,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 156347001270659979979,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14153599739074707,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 165510608134596320797,
+    "bits": 68,
+    "factores": [
+      10751588633,
+      15394060709
+    ],
+    "tiempo_segundos": 0.18877959251403809,
+    "iteraciones": 39982,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 39983
+  },
+  {
+    "n": 125539318914408156371,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14002776145935059,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 263182368397516032581,
+    "bits": 68,
+    "factores": [
+      16160034161,
+      16286003221
+    ],
+    "tiempo_segundos": 0.0065000057220458984,
+    "iteraciones": 2466,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 2467
+  },
+  {
+    "n": 173971880028456006169,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14403367042541504,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 139752162303998223821,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14052748680114746,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 195878243519448019963,
+    "bits": 68,
+    "factores": [
+      13572294277,
+      14432213119
+    ],
+    "tiempo_segundos": 0.055510759353637695,
+    "iteraciones": 20070,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 20071
+  },
+  {
+    "n": 147949452643506395081,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1405351161956787,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 121591422733261481443,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.17703819274902344,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 110843509986258651391,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.17902922630310059,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 223555950303714211973,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1420269012451172,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 125340910707732667481,
+    "bits": 67,
+    "factores": [
+      8593629497,
+      14585328673
+    ],
+    "tiempo_segundos": 0.09102511405944824,
+    "iteraciones": 32140,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 32141
+  },
+  {
+    "n": 112074924023649179339,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14603424072265625,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 98986192635207940501,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.13605856895446777,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 158194454843626927471,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14153814315795898,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 150533454621116141429,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1452796459197998,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 210188443300957431929,
+    "bits": 68,
+    "factores": [
+      14420012207,
+      14576162647
+    ],
+    "tiempo_segundos": 0.04701542854309082,
+    "iteraciones": 17850,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 17851
+  },
+  {
+    "n": 127204047821497593673,
+    "bits": 67,
+    "factores": [
+      10601027683,
+      11999218531
+    ],
+    "tiempo_segundos": 0.06000828742980957,
+    "iteraciones": 22618,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 22619
+  },
+  {
+    "n": 224984265662882176193,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14202260971069336,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 139270394406638741293,
+    "bits": 67,
+    "factores": [
+      9314187629,
+      14952500417
+    ],
+    "tiempo_segundos": 0.08051633834838867,
+    "iteraciones": 29302,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 29303
+  },
+  {
+    "n": 168484486408340543381,
+    "bits": 68,
+    "factores": [
+      9824250089,
+      17149857229
+    ],
+    "tiempo_segundos": 0.13303756713867188,
+    "iteraciones": 46098,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 46099
+  },
+  {
+    "n": 76540996634506328371,
+    "bits": 67,
+    "factores": [
+      8646152107,
+      8852608153
+    ],
+    "tiempo_segundos": 0.001003265380859375,
+    "iteraciones": 462,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 463
+  },
+  {
+    "n": 140525899276888330357,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.20627284049987793,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 226544325958886288267,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.2665708065032959,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 159491643479018390041,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.2641119956970215,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 153239816157536371163,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1464393138885498,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 172963965228596386391,
+    "bits": 68,
+    "factores": [
+      12224072681,
+      14149454911
+    ],
+    "tiempo_segundos": 0.1230475902557373,
+    "iteraciones": 42556,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 42557
+  },
+  {
+    "n": 197144852955200226667,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1478278636932373,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 184689688981005056207,
+    "bits": 68,
+    "factores": [
+      12264554383,
+      15058817729
+    ],
+    "tiempo_segundos": 0.005499362945556641,
+    "iteraciones": 2308,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 2309
+  },
+  {
+    "n": 206898984494273487641,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14653682708740234,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 126190948417513245583,
+    "bits": 67,
+    "factores": [
+      10243257779,
+      12319415477
+    ],
+    "tiempo_segundos": 0.12220215797424316,
+    "iteraciones": 26002,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 26003
+  },
+  {
+    "n": 108541741406145378113,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.148040771484375,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 130339470686383679657,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.1380622386932373,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 284489968803367294819,
+    "bits": 68,
+    "factores": [
+      16716946297,
+      17018058427
+    ],
+    "tiempo_segundos": 0.0535130500793457,
+    "iteraciones": 19990,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 19991
+  },
+  {
+    "n": 94416575809020812551,
+    "bits": 67,
+    "factores": [
+      9643828933,
+      9790361947
+    ],
+    "tiempo_segundos": 0.05000782012939453,
+    "iteraciones": 18142,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 18143
+  },
+  {
+    "n": 221619094654390568143,
+    "bits": 68,
+    "factores": [
+      14334754529,
+      15460264367
+    ],
+    "tiempo_segundos": 0.10753083229064941,
+    "iteraciones": 36900,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 36901
+  },
+  {
+    "n": 127141153372274153747,
+    "bits": 67,
+    "factores": [
+      8599830751,
+      14784145997
+    ],
+    "tiempo_segundos": 0.0,
+    "iteraciones": 106,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 107
+  },
+  {
+    "n": 113560658384605185599,
+    "bits": 67,
+    "factores": [
+      10111648303,
+      11230677233
+    ],
+    "tiempo_segundos": 0.002001047134399414,
+    "iteraciones": 952,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 953
+  },
+  {
+    "n": 203888817190955454907,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14803409576416016,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 125858667180703608409,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.17705631256103516,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 208772721487809772627,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14002084732055664,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 127150844189783275087,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14453959465026855,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 167475697531928889139,
+    "bits": 68,
+    "factores": [
+      11142404891,
+      15030480329
+    ],
+    "tiempo_segundos": 0.002500295639038086,
+    "iteraciones": 1152,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 1153
+  },
+  {
+    "n": 171206683425497057831,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1470954418182373,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 133423422781756948531,
+    "bits": 67,
+    "factores": [
+      11148919063,
+      11967386437
+    ],
+    "tiempo_segundos": 0.06952142715454102,
+    "iteraciones": 15360,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 15361
+  },
+  {
+    "n": 156151686343919993339,
+    "bits": 68,
+    "factores": [
+      12156630509,
+      12844980871
+    ],
+    "tiempo_segundos": 0.005997180938720703,
+    "iteraciones": 2476,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 2477
+  },
+  {
+    "n": 80776528540525880969,
+    "bits": 67,
+    "factores": [
+      8834160191,
+      9143656759
+    ],
+    "tiempo_segundos": 0.009306669235229492,
+    "iteraciones": 3708,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 3709
+  },
+  {
+    "n": 162460728193190991481,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.13975262641906738,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 148331491552677754337,
+    "bits": 68,
+    "factores": [
+      8728446109,
+      16994031893
+    ],
+    "tiempo_segundos": 0.025504350662231445,
+    "iteraciones": 9972,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 9973
+  },
+  {
+    "n": 184790750270907459169,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14002180099487305,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 157469002316118915937,
+    "bits": 68,
+    "factores": [
+      11586915349,
+      13590243613
+    ],
+    "tiempo_segundos": 0.10802984237670898,
+    "iteraciones": 39042,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 39043
+  },
+  {
+    "n": 155891337089884408757,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14458346366882324,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 106950703334384432837,
+    "bits": 67,
+    "factores": [
+      8816103731,
+      12131289127
+    ],
+    "tiempo_segundos": 0.11202573776245117,
+    "iteraciones": 30466,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 30467
+  },
+  {
+    "n": 143623000365647492777,
+    "bits": 67,
+    "factores": [
+      8903755643,
+      16130608939
+    ],
+    "tiempo_segundos": 0.01100301742553711,
+    "iteraciones": 4720,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 4721
+  },
+  {
+    "n": 129644363676383966689,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.13703203201293945,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 151621493645438800691,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1435396671295166,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 82692685249895544587,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.18155980110168457,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 206173191452994917407,
+    "bits": 68,
+    "factores": [
+      13051620479,
+      15796750433
+    ],
+    "tiempo_segundos": 0.015505790710449219,
+    "iteraciones": 6216,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 6217
+  },
+  {
+    "n": 179727754445280636421,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14603734016418457,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 211551813644193876467,
+    "bits": 68,
+    "factores": [
+      13610361683,
+      15543438049
+    ],
+    "tiempo_segundos": 0.010502099990844727,
+    "iteraciones": 4056,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 4057
+  },
+  {
+    "n": 223147918607058711467,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1645369529724121,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 181266054496056962513,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14852690696716309,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 131138658855382937267,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14079499244689941,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 159901855571092581647,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14654111862182617,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 168227339944493605163,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14304518699645996,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 142761739258773719219,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.2425682544708252,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 146342223381052004441,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.25707411766052246,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 127410343278891483193,
+    "bits": 67,
+    "factores": [
+      10699507997,
+      11908056269
+    ],
+    "tiempo_segundos": 0.006499528884887695,
+    "iteraciones": 2718,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 2719
+  },
+  {
+    "n": 200285427969518355949,
+    "bits": 68,
+    "factores": [
+      11905596259,
+      16822796911
+    ],
+    "tiempo_segundos": 0.016004085540771484,
+    "iteraciones": 6448,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 6449
+  },
+  {
+    "n": 155067189297666459391,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14204001426696777,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 177860091110071362029,
+    "bits": 68,
+    "factores": [
+      11380838893,
+      15628029953
+    ],
+    "tiempo_segundos": 0.029001235961914062,
+    "iteraciones": 11526,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11527
+  },
+  {
+    "n": 229292467885438370507,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.23355317115783691,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 134912009262740040481,
+    "bits": 67,
+    "factores": [
+      9389582753,
+      14368264577
+    ],
+    "tiempo_segundos": 0.0310056209564209,
+    "iteraciones": 11970,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 11971
+  },
+  {
+    "n": 155700978655017444487,
+    "bits": 68,
+    "factores": [
+      11043339133,
+      14099085139
+    ],
+    "tiempo_segundos": 0.0070037841796875,
+    "iteraciones": 2632,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 2633
+  },
+  {
+    "n": 120484168141403750891,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14353346824645996,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 201657359323902871421,
+    "bits": 68,
+    "factores": [
+      12214326191,
+      16509904531
+    ],
+    "tiempo_segundos": 0.02900838851928711,
+    "iteraciones": 10938,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 10939
+  },
+  {
+    "n": 173445452357282012693,
+    "bits": 68,
+    "factores": [
+      13011793031,
+      13329865603
+    ],
+    "tiempo_segundos": 0.003998994827270508,
+    "iteraciones": 1522,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 1523
+  },
+  {
+    "n": 171574725841808455181,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1440277099609375,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 152060765895545487047,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.15619158744812012,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 242019084012758400319,
+    "bits": 68,
+    "factores": [
+      14559593833,
+      16622653543
+    ],
+    "tiempo_segundos": 0.0005016326904296875,
+    "iteraciones": 36,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 37
+  },
+  {
+    "n": 93419583001980807211,
+    "bits": 67,
+    "factores": [
+      9437888549,
+      9898356239
+    ],
+    "tiempo_segundos": 0.002500295639038086,
+    "iteraciones": 1216,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 1217
+  },
+  {
+    "n": 215647875525420665813,
+    "bits": 68,
+    "factores": [
+      14178856033,
+      15209116661
+    ],
+    "tiempo_segundos": 0.03700900077819824,
+    "iteraciones": 13686,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 13687
+  },
+  {
+    "n": 148028633693265018329,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14102888107299805,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 160544846518013320333,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1740567684173584,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 114266435141899000117,
+    "bits": 67,
+    "factores": [
+      8820201557,
+      12955082081
+    ],
+    "tiempo_segundos": 0.00950312614440918,
+    "iteraciones": 3846,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 3847
+  },
+  {
+    "n": 200548162509354922699,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1370253562927246,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 225506488115628235661,
+    "bits": 68,
+    "factores": [
+      13209600947,
+      17071408063
+    ],
+    "tiempo_segundos": 0.056845664978027344,
+    "iteraciones": 20542,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 20543
+  },
+  {
+    "n": 96214632549704886703,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.20898866653442383,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 133123633692785324599,
+    "bits": 67,
+    "factores": [
+      9173935213,
+      14511071923
+    ],
+    "tiempo_segundos": 0.03500699996948242,
+    "iteraciones": 13596,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 13597
+  },
+  {
+    "n": 198666053082497835049,
+    "bits": 68,
+    "factores": [
+      14003319329,
+      14187068681
+    ],
+    "tiempo_segundos": 0.041509389877319336,
+    "iteraciones": 15298,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 15299
+  },
+  {
+    "n": 174924474548818670561,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.1405329704284668,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 146929411599422010479,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.20804619789123535,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 179504936658777788731,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.14253711700439453,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 111732931038851072351,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.14153766632080078,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 219391163161151512789,
+    "bits": 68,
+    "factores": null,
+    "tiempo_segundos": 0.13802337646484375,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  },
+  {
+    "n": 136575018399175833569,
+    "bits": 67,
+    "factores": [
+      9428653291,
+      14485103459
+    ],
+    "tiempo_segundos": 0.001500844955444336,
+    "iteraciones": 346,
+    "exito": true,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "k_final": 347
+  },
+  {
+    "n": 92833769090230033927,
+    "bits": 67,
+    "factores": null,
+    "tiempo_segundos": 0.13654208183288574,
+    "iteraciones": 49999,
+    "exito": false,
+    "metodo": "pollard_p1",
+    "timeout": false,
+    "motivo": "max_k_alcanzado"
+  }
+]

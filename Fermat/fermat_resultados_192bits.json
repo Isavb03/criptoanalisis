@@ -1,0 +1,102 @@
+[
+  {
+    "n": 3982571194531856670883109052805192331954179745649441870037,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 42.195287466049194,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 3687248346514449966547642584636049500122622128720214958903,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 42.233845472335815,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 2884240631170617707700383164914494529068970063761843293669,
+    "bits": 191,
+    "factores": null,
+    "tiempo_segundos": 42.263394594192505,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 2933698527921057939307970475396328033506276009338899765399,
+    "bits": 191,
+    "factores": null,
+    "tiempo_segundos": 20.894071102142334,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 3496780232164015900855368131117319519865463744402208467083,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 20.72661018371582,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 2126414994606207390860569379911394233520073914622076484657,
+    "bits": 191,
+    "factores": null,
+    "tiempo_segundos": 41.72927188873291,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 5422262506627038972600059971209629481845832016798848378407,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 34.70168876647949,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 5375939812814667434744289870648060029495808749820357719917,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 25.044482231140137,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 2511142423084598363486201054668161490515904998429099055777,
+    "bits": 191,
+    "factores": null,
+    "tiempo_segundos": 25.04887628555298,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  },
+  {
+    "n": 3957154492266800442820576764769736350921055773936005142667,
+    "bits": 192,
+    "factores": null,
+    "tiempo_segundos": 25.01949191093445,
+    "iteraciones": 100000000,
+    "exito": false,
+    "metodo": "fermat",
+    "timeout": false
+  }
+]

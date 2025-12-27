@@ -1,0 +1,112 @@
+[
+  {
+    "n": 852433114237085849065352888870845872428151199511,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.922544002532959,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1221881212881191648366789082428319562868168921321,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.897514581680298,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 676506705918384236730656269937663695041933451201,
+    "bits": 159,
+    "factores": null,
+    "tiempo_segundos": 3.8687970638275146,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1358341553208166727296426228287126947995334609741,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.9650821685791016,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1008008993436388732038129906487239260534782735829,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.858530044555664,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 695453929122891697948794290335929044034088670173,
+    "bits": 159,
+    "factores": null,
+    "tiempo_segundos": 4.03624701499939,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 890314537116211312570754474692794067018184431907,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 4.237747669219971,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 494040216758374750275178663651752057539827713251,
+    "bits": 159,
+    "factores": null,
+    "tiempo_segundos": 3.7922985553741455,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 796147833374799638841030527467941831314757323783,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.891711950302124,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  },
+  {
+    "n": 1177269445852193059182634703210897011007674321549,
+    "bits": 160,
+    "factores": null,
+    "tiempo_segundos": 3.9113311767578125,
+    "iteraciones": 100000,
+    "exito": false,
+    "metodo": "quadratic_sieve",
+    "timeout": false,
+    "motivo": "insuficientes_relaciones"
+  }
+]
