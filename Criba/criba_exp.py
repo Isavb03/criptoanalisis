@@ -4,41 +4,6 @@ Criba Cuadrática (Quadratic Sieve) - Versión para Experimentación
 ------------------------------------------------------------------
 Algoritmo de Criba Cuadrática para factorización de enteros.
 Implementación basada en los apuntes de clase.
-
-SEGÚN LOS APUNTES:
------------------
-- B = {p₁, p₂, p₃, ..., pₖ} base de factores primos pequeños
-- El algoritmo busca valores (m+tᵢ)² - n factorizables usando solo primos de B
-- Ejemplo: Para n=10579 se usa B = {-1, 2, 3, 5, 7, 13}
-
-NOTA: Los apuntes no especifican criterio de selección para B.
-Se implementa el criterio estándar de la literatura [Pomerance, 1981]:
-  B_límite = exp(0.5 × √(ln n × ln ln n))
-
-TEORÍA:
--------
-La Criba Cuadrática busca relaciones de la forma:
-    x² ≡ y² (mod n)
-    
-Donde x ≢ ±y mod n, lo que permite encontrar factores mediante:
-    factor = mcd(x - y, n)
-
-COMPLEJIDAD:
------------
-O(exp(√(ln n ln ln n))) ≈ O(exp(1.9 √(ln n ln ln n)))
-Mucho más rápido que Pollard-rho para números grandes (>60 bits)
-
-VENTAJAS:
----------
-- Muy eficiente para números de 60-100 bits
-- Escalabilidad superior a métodos elementales
-- Paralelizable
-
-DESVENTAJAS:
-------------
-- Implementación compleja
-- Requiere memoria significativa
-- Más lento que métodos simples para números pequeños (<40 bits)
 """
 
 import math
@@ -195,7 +160,23 @@ def criba_cuadratica_factorizar(n: int, timeout: float = None, B_limite: int = N
     if B_limite is None:
         ln_n = math.log(n)
         ln_ln_n = math.log(ln_n) if ln_n > 1 else 1
-        B_limite = int(math.exp(0.5 * math.sqrt(ln_n * ln_ln_n)))
+        B_limite_teorico = int(math.exp(0.5 * math.sqrt(ln_n * ln_ln_n)))
+        
+        # Para implementación simplificada, necesitamos bases más grandes
+        # Ajuste empírico basado en experimentación
+        if bits <= 40:
+            B_limite = min(B_limite_teorico, 100)
+        elif bits <= 56:
+            B_limite = max(500, min(B_limite_teorico * 2, 2000))
+        elif bits <= 64:
+            B_limite = max(1000, min(B_limite_teorico * 2, 3000))
+        elif bits <= 72:
+            B_limite = max(1500, min(B_limite_teorico * 2, 4000))
+        elif bits <= 80:
+            B_limite = max(2000, min(B_limite_teorico * 2, 5000))
+        else:
+            B_limite = max(3000, min(B_limite_teorico * 2, 10000))
+        
         B_limite = max(10, min(B_limite, 10000))
     
     # Línea 1: Generar base de factores B
@@ -215,7 +196,8 @@ def criba_cuadratica_factorizar(n: int, timeout: float = None, B_limite: int = N
         }
     
     # Necesitamos al menos len(base) + 1 relaciones factorizables en B
-    objetivo_relaciones = len(base) + 5
+    # Para ser conservadores, buscamos más relaciones
+    objetivo_relaciones = len(base) + 10
     relaciones = []
     valores_a = []
     
@@ -224,7 +206,8 @@ def criba_cuadratica_factorizar(n: int, timeout: float = None, B_limite: int = N
     
     # Línea 3-11: repeat... until suficientes valores
     # Línea 4: Considera tᵢ en el orden 0, ±1, ±2 ...
-    max_intentos = 100000
+    # Para números grandes necesitamos más intentos
+    max_intentos = min(500000, len(base) * 10000)
     
     for intento in range(max_intentos):
         # Verificar timeout
@@ -283,10 +266,10 @@ def criba_cuadratica_factorizar(n: int, timeout: float = None, B_limite: int = N
     # Líneas 12-18: Fase de álgebra lineal
     # Línea 13: Encontrar vectores cuya suma resulte en vector con componentes pares
     
-    # Probar combinaciones de diferentes tamaños (2, 3, 4 relaciones)
+    # Probar combinaciones de diferentes tamaños (2, 3, 4, 5 relaciones)
     from itertools import combinations
     
-    for tamaño_combo in [2, 3, 4]:
+    for tamaño_combo in [2, 3, 4, 5]:
         if tamaño_combo > len(relaciones):
             continue
             
@@ -569,9 +552,10 @@ if __name__ == "__main__":
     retos = cargar_retos_poliformat("reto.txt")
     
     # Configuración
-    # IMPORTANTE: La criba cuadrática es más eficiente para números GRANDES
-    # Para números pequeños, otros algoritmos son mejores
-    TAMANIOS = [56, 60, 64, 68, 72, 76, 80, 92, 104, 116, 128]
+    # IMPORTANTE: Esta implementación simplificada funciona mejor en números pequeños
+    # Para números >56 bits, las limitaciones del álgebra lineal simplificada
+    # hacen que la tasa de éxito sea muy baja
+    TAMANIOS = [40, 44, 48, 52, 56]  # Rango realista para implementación simplificada
     TIMEOUT = 60.0
     
     estadisticas_por_tamanio = {}
@@ -585,286 +569,6 @@ if __name__ == "__main__":
         print(f"\n{'='*70}")
         print(f" Procesando {len(retos[bits])} números de {bits} bits")
         print(f" (B_limite se calcula automáticamente)")
-        print(f"{'='*70}")
-        
-        resultados = []
-        
-        # Factorizar cada número
-        for i, n in enumerate(retos[bits], 1):
-            print(f"Problema {i}/{len(retos[bits])} (n={n})...", end=" ", flush=True)
-            
-            resultado = criba_cuadratica_factorizar(n, timeout=TIMEOUT)
-            resultados.append(resultado)
-            
-            # Mostrar resultado
-            if resultado['exito']:
-                p, q = resultado['factores']
-                tiempo_ms = resultado['tiempo_segundos'] * 1000
-                print(f"✓ {tiempo_ms:.3f}ms → {p} × {q}")
-            else:
-                if resultado.get('timeout', False):
-                    print(f"✗ Timeout")
-                else:
-                    motivo = resultado.get('motivo', 'fallo')
-                    print(f"✗ Fallo ({motivo})")
-        
-        # Resumen y guardado
-        stats = mostrar_resumen(resultados)
-        estadisticas_por_tamanio[bits] = stats
-        
-        nombre_archivo = f"quadratic_sieve_resultados_{bits}bits.json"
-        guardar_resultados(resultados, nombre_archivo)
-    
-    # Generar tabla Excel
-    archivo_excel = "quadratic_sieve_tabla_resumen.csv"
-    generar_tabla_excel(estadisticas_por_tamanio, TAMANIOS, archivo_excel)
-
-    print("\n" + "="*70)
-    print(" EXPERIMENTACIÓN COMPLETADA")
-    print("="*70)
-    print("\n✅ CARACTERÍSTICAS DEL CÓDIGO:")
-    print("  • Algoritmo fiel a los apuntes")
-    print("  • Coherencia resumen-tabla garantizada")
-    print("  • B_limite calculado según fórmula estándar")
-    print("\n📊 Archivos generados:")
-    print(f"  • quadratic_sieve_resultados_XXbits.json (uno por cada tamaño)")
-    print(f"  • {archivo_excel} (tabla resumen para Excel)")
-    print("\n💡 Nota:")
-    print("  La Criba Cuadrática brilla en números de 60-100 bits.")
-    print("  Para números más pequeños, Pollard-rho suele ser más rápido.")
-
-
-
-def calcular_estadisticas(resultados: List[Dict]) -> Dict:
-    """
-    Calcula estadísticas de un conjunto de resultados.
-    Incluye todos los tiempos (éxitos + fallos).
-    """
-    tiempos_todos = [r['tiempo_segundos'] for r in resultados]
-    tiempos_exitosos = [r['tiempo_segundos'] for r in resultados if r['exito']]
-    iteraciones_exitosas = [r['iteraciones'] for r in resultados if r['exito']]
-    
-    if not tiempos_todos:
-        return {
-            'num_problemas': len(resultados),
-            'num_exitosos': 0,
-            'tasa_exito': 0.0,
-            'tiempo_medio': None,
-            'tiempo_mediana': None,
-            'tiempo_min': None,
-            'tiempo_max': None,
-            'tiempo_desv_std': None,
-            'iteraciones_media': None,
-        }
-    
-    tiempos_ordenados = sorted(tiempos_todos)
-    n = len(tiempos_todos)
-    
-    # Mediana
-    if n % 2 == 0:
-        mediana = (tiempos_ordenados[n//2 - 1] + tiempos_ordenados[n//2]) / 2
-    else:
-        mediana = tiempos_ordenados[n//2]
-    
-    # Media
-    media = sum(tiempos_todos) / n
-    
-    # Desviación estándar
-    varianza = sum((t - media) ** 2 for t in tiempos_todos) / n
-    desv_std = math.sqrt(varianza)
-    
-    return {
-        'num_problemas': len(resultados),
-        'num_exitosos': len(tiempos_exitosos),
-        'tasa_exito': len(tiempos_exitosos) / len(resultados),
-        'tiempo_medio': media,
-        'tiempo_mediana': mediana,
-        'tiempo_min': min(tiempos_todos),
-        'tiempo_max': max(tiempos_todos),
-        'tiempo_desv_std': desv_std,
-        'iteraciones_media': sum(iteraciones_exitosas) / len(iteraciones_exitosas) if iteraciones_exitosas else None,
-    }
-
-
-def guardar_resultados(resultados: List[Dict], nombre_archivo: str):
-    """Guarda los resultados en formato JSON."""
-    with open(nombre_archivo, 'w') as f:
-        json.dump(resultados, f, indent=2)
-    print(f"\n✓ Resultados guardados en {nombre_archivo}")
-
-
-def mostrar_resumen(resultados: List[Dict]) -> Dict:
-    """
-    Muestra un resumen de los resultados.
-    Retorna las estadísticas para garantizar coherencia con la tabla Excel.
-    """
-    stats = calcular_estadisticas(resultados)
-    
-    print(f"\n{'='*70}")
-    print("RESUMEN DE RESULTADOS")
-    print(f"{'='*70}")
-    print(f"Total de problemas:        {stats['num_problemas']}")
-    print(f"Problemas resueltos:       {stats['num_exitosos']}")
-    print(f"Tasa de éxito:             {stats['tasa_exito']*100:.1f}%")
-    
-    if stats['tiempo_medio'] is not None:
-        print(f"\nTiempos (segundos):")
-        print(f"  Media:                   {stats['tiempo_medio']:.6f}")
-        print(f"  Mediana:                 {stats['tiempo_mediana']:.6f}")
-        print(f"  Mínimo:                  {stats['tiempo_min']:.6f}")
-        print(f"  Máximo:                  {stats['tiempo_max']:.6f}")
-        print(f"  Desviación estándar:     {stats['tiempo_desv_std']:.6f}")
-        
-        if stats['iteraciones_media'] is not None:
-            print(f"\nIteraciones media:         {stats['iteraciones_media']:.1f}")
-    
-    print(f"{'='*70}")
-    
-    return stats
-
-
-def cargar_retos_poliformat(archivo: str = "reto.txt"):
-    """Carga los retos del archivo de Poliformat."""
-    retos = {}
-    
-    with open(archivo, 'r', encoding='utf-8') as f:
-        for linea in f:
-            linea = linea.strip()
-            if not linea or linea.startswith('#'):
-                continue
-            
-            partes = linea.split(',')
-            if len(partes) == 2:
-                bits = int(partes[0].strip())
-                numero = int(partes[1].strip())
-                
-                if bits not in retos:
-                    retos[bits] = []
-                retos[bits].append(numero)
-    
-    return retos
-
-
-def generar_tabla_excel(estadisticas_por_tamanio: Dict[int, Dict],
-                        tamanios_deseados: List[int], 
-                        archivo_salida: str = "quadratic_sieve_resultados.csv"):
-    """
-    Genera un archivo CSV con estadísticas por tamaño, listo para Excel.
-    Usa comas decimales (formato europeo).
-    Usa estadísticas pre-calculadas para garantizar coherencia.
-    """
-    # Preparar datos para CSV
-    filas = []
-    
-    for bits in tamanios_deseados:
-        if bits not in estadisticas_por_tamanio:
-            continue
-        
-        stats = estadisticas_por_tamanio[bits]
-        
-        fila = {
-            'Tamaño (bits)': bits,
-            'Media': f"{stats['tiempo_medio']:.6f}".replace('.', ',') if stats['tiempo_medio'] is not None else "N/A",
-            'Mediana': f"{stats['tiempo_mediana']:.6f}".replace('.', ',') if stats['tiempo_mediana'] is not None else "N/A",
-            'Mínimo': f"{stats['tiempo_min']:.6f}".replace('.', ',') if stats['tiempo_min'] is not None else "N/A",
-            'Máximo': f"{stats['tiempo_max']:.6f}".replace('.', ',') if stats['tiempo_max'] is not None else "N/A",
-            'Desviación estándar': f"{stats['tiempo_desv_std']:.6f}".replace('.', ',') if stats['tiempo_desv_std'] is not None else "N/A",
-            'Iteraciones media': f"{stats['iteraciones_media']:.1f}".replace('.', ',') if stats['iteraciones_media'] is not None else "N/A",
-            'Tasa éxito': f"{stats['tasa_exito']*100:.2f}%".replace('.', ',')
-        }
-        filas.append(fila)
-    
-    # Escribir CSV
-    columnas = ['Tamaño (bits)', 'Media', 'Mediana', 'Mínimo', 'Máximo', 
-                'Desviación estándar', 'Iteraciones media', 'Tasa éxito']
-    
-    with open(archivo_salida, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=columnas, delimiter='\t')
-        writer.writeheader()
-        writer.writerows(filas)
-    
-    print(f"\n✓ Tabla Excel guardada en: {archivo_salida}")
-    
-    # También mostrar en consola
-    print("\n" + "="*120)
-    print("TABLA DE RESULTADOS CRIBA CUADRÁTICA (copiar y pegar en Excel)")
-    print("="*120)
-    print("\t".join(columnas))
-    print("-"*120)
-    for fila in filas:
-        print("\t".join(str(fila[col]) for col in columnas))
-    print("="*120)
-
-
-def test_ejemplo():
-    """
-    Prueba con un ejemplo pequeño.
-    """
-    print("\n" + "="*70)
-    print("PRUEBA: Ejemplo pequeño")
-    print("="*70)
-    
-    n = 5959  # = 59 × 101
-    print(f"\nFactorizando n = {n} con Criba Cuadrática...")
-    print(f"Esperado: factores 59 y 101")
-    
-    resultado = criba_cuadratica_factorizar(n, B=20)
-    
-    print(f"\nResultado:")
-    print(f"  Factores: {resultado['factores']}")
-    print(f"  Tiempo: {resultado['tiempo_segundos']:.6f} segundos")
-    print(f"  Éxito: {resultado['exito']}")
-    
-    if resultado['exito']:
-        p, q = resultado['factores']
-        print(f"  Verificación: {p} × {q} = {p * q}")
-        if sorted([p, q]) == [59, 101]:
-            print(f"  ✓ ¡Factorización correcta!")
-
-
-# ============================================================================
-# MAIN
-# ============================================================================
-
-if __name__ == "__main__":
-    print("\n" + "="*70)
-    print(" CRIBA CUADRÁTICA - EXPERIMENTACIÓN")
-    print("="*70)
-    print("\nAlgoritmo: Quadratic Sieve")
-    print("Complejidad: O(exp(√(ln n ln ln n)))")
-    print("Ventaja: Muy eficiente para números de 60-100 bits")
-    print("Desventaja: Complejo, requiere memoria")
-    print("\n⚠️  NOTA: Implementación simplificada educativa")
-    print("   Para números >80 bits, usar msieve o YAFU")
-    print("="*70)
-    
-    # Primero probar con ejemplo
-    # test_ejemplo()
-    
-    # Comentar para ejecución automática:
-    # input("\nPresiona Enter para continuar con los retos de Poliformat...")
-    
-    # Cargar retos de Poliformat
-    retos = cargar_retos_poliformat("reto.txt")
-    
-    # Configuración
-    # IMPORTANTE: La criba cuadrática es más eficiente para números GRANDES
-    # Para números pequeños, otros algoritmos son mejores
-    # TAMANIOS = [56, 60, 64, 68, 72, 76, 80, 92, 104, 116, 128]
-    TAMANIOS = [56, 60, 64, 68]
-
-    TIMEOUT = 60.0
-    
-    estadisticas_por_tamanio = {}
-    
-    # Procesar cada tamaño
-    for bits in TAMANIOS:
-        if bits not in retos:
-            print(f"\n⚠️  No hay retos de {bits} bits en el archivo")
-            continue
-        
-        print(f"\n{'='*70}")
-        print(f" Procesando {len(retos[bits])} números de {bits} bits")
         print(f"{'='*70}")
         
         resultados = []
