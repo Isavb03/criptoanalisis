@@ -1,162 +1,94 @@
 #!/usr/bin/env python3
 """
-Pollard p-1 - Versión para Experimentación con Retos de Poliformat
--------------------------------------------------------------------
-Algoritmo Pollard p-1 para factorización de enteros.
-Implementación fiel a los apuntes de clase.
+Pollard p-1 - Versión para Experimentación (Corregida según Temario)
+--------------------------------------------------------------------
+Algoritmo Pollard p-1 ajustado a la definición de la Diapositiva 22.
 """
 
 import math
 import time
+import random 
 from typing import List, Dict
 import json
-from collections import defaultdict
 import csv
 
-
 def mcd(a: int, b: int) -> int:
-    """
-    Máximo común divisor usando algoritmo de Euclides.
-    
-    Ejemplo:
-        mcd(48, 18) = 6
-    """
     while b:
         a, b = b, a % b
     return a
 
-
 def pollard_p1_factorizar(n: int, timeout: float = None, max_k: int = 10000) -> Dict:
     """
-    Algoritmo Pollard p-1 según los apuntes de clase.
-    
-    Pseudocódigo de los apuntes:
-    1: Escoger A aleatorio tal que 2 ≤ A ≤ n − 1
-    2: if 1 < mcd(A, n) < n then return mcd(A, n) end if
-    3: k = 2;
-    4: while True do
-    5:     A = A^k mod n
-    6:     d = mcd(A − 1, n)
-    7:     if 1 < d < n then return d end if
-    8:     if d = n then return False end if
-    9:     k++
-    10: end while
-    
-    Args:
-        n: Número a factorizar
-        timeout: Tiempo máximo en segundos (None = sin límite)
-        max_k: Máximo valor de k a probar (límite de seguridad)
-        
-    Returns:
-        Diccionario con resultados y métricas
-        
-    Ejemplo (de los apuntes):
-        n = 10001
-        k=4 encuentra el factor 73
-        Resultado: factores = (73, 137)
+    Algoritmo Pollard p-1 según Diapositiva 22 del Tema 10-1.
     """
     inicio = time.time()
     bits = n.bit_length()
     
-    # Caso especial: n par
     if n % 2 == 0:
         return {
-            'n': n,
-            'bits': bits,
-            'factores': (2, n // 2),
-            'tiempo_segundos': time.time() - inicio,
-            'iteraciones': 0,
-            'exito': True,
-            'metodo': 'pollard_p1',
-            'timeout': False
+            'n': n, 'bits': bits, 'factores': (2, n // 2),
+            'tiempo_segundos': time.time() - inicio, 'iteraciones': 0,
+            'exito': True, 'metodo': 'pollard_p1', 'timeout': False
         }
     
-    # Línea 1: Escoger A (usamos 3 como en el ejemplo de los apuntes)
-    # Los apuntes dicen "aleatorio", pero el ejemplo usa A=3
-    a = 3
     
-    # Línea 2: if 1 < mcd(A, n) < n then return mcd(A, n)
+    a = random.randint(2, n - 1)
+    
+    # Paso 2: if 1 < mcd(A, n) < n then return mcd(A, n)
     d = mcd(a, n)
     if 1 < d < n:
         q = n // d
         return {
-            'n': n,
-            'bits': bits,
-            'factores': (min(d, q), max(d, q)),
-            'tiempo_segundos': time.time() - inicio,
-            'iteraciones': 0,
-            'exito': True,
-            'metodo': 'pollard_p1',
-            'timeout': False,
+            'n': n, 'bits': bits, 'factores': (min(d, q), max(d, q)),
+            'tiempo_segundos': time.time() - inicio, 'iteraciones': 0,
+            'exito': True, 'metodo': 'pollard_p1', 'timeout': False,
             'motivo': 'mcd_inicial'
         }
     
-    # Línea 3: k = 2
+    # Paso 3: k = 2
     k = 2
     
-    # Línea 4: while True (con límite max_k por seguridad)
+    # Paso 4: while True (limitado por max_k)
     while k <= max_k:
-        # Verificar timeout
         if timeout and (time.time() - inicio) > timeout:
             return {
-                'n': n,
-                'bits': bits,
-                'factores': None,
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': k - 2,
-                'exito': False,
-                'metodo': 'pollard_p1',
-                'timeout': True
+                'n': n, 'bits': bits, 'factores': None,
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': k - 2,
+                'exito': False, 'metodo': 'pollard_p1', 'timeout': True
             }
         
-        # Línea 5: A = A^k mod n
+        # Paso 5: A = A^k mod n
         a = pow(a, k, n)
         
-        # Línea 6: d = mcd(A - 1, n)
+        # Paso 6: d = mcd(A - 1, n)
         d = mcd(a - 1, n)
         
-        # Línea 7: if 1 < d < n then return d
+        # Paso 7
         if 1 < d < n:
             q = n // d
             return {
-                'n': n,
-                'bits': bits,
-                'factores': (min(d, q), max(d, q)),
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': k - 1,
-                'exito': True,
-                'metodo': 'pollard_p1',
-                'timeout': False,
+                'n': n, 'bits': bits, 'factores': (min(d, q), max(d, q)),
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': k - 1,
+                'exito': True, 'metodo': 'pollard_p1', 'timeout': False,
                 'k_final': k
             }
         
-        # Línea 8: if d = n then return False
+        # Paso 8
         if d == n:
             return {
-                'n': n,
-                'bits': bits,
-                'factores': None,
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': k - 1,
-                'exito': False,
-                'metodo': 'pollard_p1',
-                'timeout': False,
+                'n': n, 'bits': bits, 'factores': None,
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': k - 1,
+                'exito': False, 'metodo': 'pollard_p1', 'timeout': False,
                 'motivo': 'd_igual_n'
             }
         
-        # Línea 9: k++
+        # Paso 9
         k += 1
     
-    # Límite max_k alcanzado (no estaba en los apuntes, pero necesario)
     return {
-        'n': n,
-        'bits': bits,
-        'factores': None,
-        'tiempo_segundos': time.time() - inicio,
-        'iteraciones': max_k - 1,
-        'exito': False,
-        'metodo': 'pollard_p1',
-        'timeout': False,
+        'n': n, 'bits': bits, 'factores': None,
+        'tiempo_segundos': time.time() - inicio, 'iteraciones': max_k - 1,
+        'exito': False, 'metodo': 'pollard_p1', 'timeout': False,
         'motivo': 'max_k_alcanzado'
     }
 
@@ -323,45 +255,15 @@ if __name__ == "__main__":
     print("\n" + "="*70)
     print(" POLLARD P-1 - EXPERIMENTACIÓN")
     print("="*70)
-    print("\nAlgoritmo: Según apuntes de clase (sin parámetro B)")
-    print("Método: k = 2, 3, 4, ... hasta encontrar factor o timeout")
-    print("Base: A = 3 (como en el ejemplo)")
-    print("Complejidad: Depende de características de p-1")
-    print("Ventaja: Muy rápido cuando p-1 tiene solo factores pequeños")
-    print("Desventaja: Puede fallar si p-1 tiene factores primos grandes")
-    print("="*70)
     
     # Cargar retos de Poliformat
     retos = cargar_retos_poliformat("reto_ext.txt")
     
     # Configuración
-    # TAMANIOS = [116]
     TAMANIOS = [24, 32, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 92, 104, 116, 128]
     TIMEOUT = 60.0
     
-    # max_k según tamaño (heurística conservadora)
-    # Números pequeños: k bajo (rápido)
-    # Números grandes: k más alto (más posibilidades)
-    MAX_K_CONFIG = {
-        24: 10000,      # Suficiente para números pequeños
-        32: 20000,
-        40: 30000,
-        44: 40000,
-        48: 50000,
-        52: 60000,
-        56: 70000,
-        60: 80000,
-        64: 50000,    # ← Aumentado (de 10K)
-        68: 50000,    # ← Aumentado
-        72: 30000,    # ← Aumentado
-        76: 20000,    # ← Aumentado
-        80: 20000,    # ← Aumentado        
-        # Grandes: dejar bajo (imposible de todas formas)
-        92: 10000,
-        104: 10000,
-        116: 5000,
-        128: 3000,
-    }
+    MAX_K_GLOBAL = 500000  # Límite de seguridad inalcanzable en 60s normalmente
     
     estadisticas_por_tamanio = {}
     
@@ -370,12 +272,10 @@ if __name__ == "__main__":
         if bits not in retos:
             print(f"\n⚠️  No hay retos de {bits} bits en el archivo")
             continue
-        
-        max_k = MAX_K_CONFIG.get(bits, 10000)
-        
+            
         print(f"\n{'='*70}")
         print(f" Procesando {len(retos[bits])} números de {bits} bits")
-        print(f" Parámetro max_k = {max_k}")
+        print(f" Parámetro max_k (seguridad) = {MAX_K_GLOBAL}")
         print(f"{'='*70}")
         
         resultados = []
@@ -384,7 +284,8 @@ if __name__ == "__main__":
         for i, n in enumerate(retos[bits], 1):
             print(f"Problema {i}/{len(retos[bits])} (n={n})...", end=" ", flush=True)
             
-            resultado = pollard_p1_factorizar(n, timeout=TIMEOUT, max_k=max_k)
+            
+            resultado = pollard_p1_factorizar(n, timeout=TIMEOUT, max_k=MAX_K_GLOBAL)
             resultados.append(resultado)
             
             # Mostrar resultado
@@ -395,7 +296,7 @@ if __name__ == "__main__":
                 print(f"✓ {tiempo_ms:.3f}ms (k={k_final}) → {p} × {q}")
             else:
                 if resultado.get('timeout', False):
-                    print(f"✗ Timeout")
+                    print(f"✗ Timeout (llegó a k={resultado['iteraciones']})")
                 else:
                     motivo = resultado.get('motivo', 'max_iter')
                     print(f"✗ Fallo ({motivo})")
