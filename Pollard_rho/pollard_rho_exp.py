@@ -1,146 +1,75 @@
 #!/usr/bin/env python3
 """
-Pollard-rho - Versión para Experimentación con Retos de Poliformat
--------------------------------------------------------------------
-Algoritmo Pollard-rho para factorización de enteros.
-Usa detección de ciclos de Floyd (tortuga y liebre).
-
-TEORÍA:
--------
-- Método: Detección de ciclos con función pseudoaleatoria f(x) = x² + 1 mod n
-- Complejidad: O(n^1/4) - Más eficiente que Fermat en general
-- Funciona bien: Para cualquier tipo de números (factores cercanos o lejanos)
-
-FUNCIONAMIENTO:
---------------
-1. Inicializar A = B = 2 (o valor aleatorio)
-2. Avanzar A un paso: A = f(A)
-3. Avanzar B dos pasos: B = f(f(B))  [por eso es más rápido]
-4. Calcular d = mcd(|A - B|, n)
-5. Si 1 < d < n: d es un factor
-6. Si d = n: falló (reintentar con otro valor inicial)
+Pollard-rho - Versión para Experimentación (Corregida según Temario)
+--------------------------------------------------------------------
+Algoritmo Pollard-rho ajustado a la definición de la Diapositiva 19.
 """
 
 import math
 import time
+import random  
 from typing import List, Dict
 import json
-from collections import defaultdict
 import csv
 
-
 def mcd(a: int, b: int) -> int:
-    """
-    Máximo común divisor usando algoritmo de Euclides.
-    
-    Ejemplo:
-        mcd(48, 18) = 6
-    """
     while b:
         a, b = b, a % b
     return a
 
-
 def pollard_rho_factorizar(n: int, timeout: float = None, max_iteraciones: int = 100000000) -> Dict:
     """
-    Algoritmo Pollard-rho con medición de rendimiento.
-    
-    Args:
-        n: Número a factorizar
-        timeout: Tiempo máximo en segundos (None = sin límite)
-        max_iteraciones: Número máximo de iteraciones
-        
-    Returns:
-        Diccionario con resultados y métricas
-        
-    Ejemplo (de los apuntes):
-        n = 39617
-        Resultado: factores = (173, 229)
+    Algoritmo Pollard-rho según Diapositiva 19 del Tema 10-1.
     """
     inicio = time.time()
     bits = n.bit_length()
     
-    # Caso especial: n par
     if n % 2 == 0:
         return {
-            'n': n,
-            'bits': bits,
-            'factores': (2, n // 2),
-            'tiempo_segundos': time.time() - inicio,
-            'iteraciones': 0,
-            'exito': True,
-            'metodo': 'pollard_rho',
-            'timeout': False
+            'n': n, 'bits': bits, 'factores': (2, n // 2),
+            'tiempo_segundos': time.time() - inicio, 'iteraciones': 0,
+            'exito': True, 'metodo': 'pollard_rho', 'timeout': False
         }
     
-    # Función pseudoaleatoria: f(x) = x² + 1 mod n
     def f(x):
         return (x * x + 1) % n
     
-    # Valores iniciales (habitualmente se usa 2)
-    A = B = 2
+
+    A = B = random.randint(2, n - 1)
     
     for iteracion in range(1, max_iteraciones + 1):
-        # Verificar timeout
         if timeout and (time.time() - inicio) > timeout:
             return {
-                'n': n,
-                'bits': bits,
-                'factores': None,
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': iteracion,
-                'exito': False,
-                'metodo': 'pollard_rho',
-                'timeout': True
+                'n': n, 'bits': bits, 'factores': None,
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': iteracion,
+                'exito': False, 'metodo': 'pollard_rho', 'timeout': True
             }
         
-        # Avanzar A una vez (tortuga)
         A = f(A)
-        
-        # Avanzar B dos veces (liebre) - Algoritmo de Floyd
         B = f(f(B))
         
-        # Calcular mcd
         d = mcd(abs(A - B), n)
         
-        # Verificar si encontramos un factor
         if 1 < d < n:
             q = n // d
             return {
-                'n': n,
-                'bits': bits,
-                'factores': (min(d, q), max(d, q)),
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': iteracion,
-                'exito': True,
-                'metodo': 'pollard_rho',
-                'timeout': False
+                'n': n, 'bits': bits, 'factores': (min(d, q), max(d, q)),
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': iteracion,
+                'exito': True, 'metodo': 'pollard_rho', 'timeout': False
             }
         
-        # Si d == n, el algoritmo ha fallado con estos parámetros
         if d == n:
             return {
-                'n': n,
-                'bits': bits,
-                'factores': None,
-                'tiempo_segundos': time.time() - inicio,
-                'iteraciones': iteracion,
-                'exito': False,
-                'metodo': 'pollard_rho',
-                'timeout': False,
+                'n': n, 'bits': bits, 'factores': None,
+                'tiempo_segundos': time.time() - inicio, 'iteraciones': iteracion,
+                'exito': False, 'metodo': 'pollard_rho', 'timeout': False,
                 'motivo': 'ciclo_completo_detectado'
             }
     
-    # Max iteraciones alcanzadas
     return {
-        'n': n,
-        'bits': bits,
-        'factores': None,
-        'tiempo_segundos': time.time() - inicio,
-        'iteraciones': max_iteraciones,
-        'exito': False,
-        'metodo': 'pollard_rho',
-        'timeout': False
+        'n': n, 'bits': bits, 'factores': None,
+        'tiempo_segundos': time.time() - inicio, 'iteraciones': max_iteraciones,
+        'exito': False, 'metodo': 'pollard_rho', 'timeout': False
     }
 
 
@@ -215,7 +144,7 @@ def mostrar_resumen(resultados: List[Dict]) -> Dict:
     print(f"Problemas resueltos:       {stats['num_exitosos']}")
     print(f"Tasa de éxito:             {stats['tasa_exito']*100:.1f}%")
     
-    # CORREGIDO: Verificar tiempo_medio en lugar de num_exitosos
+
     if stats['tiempo_medio'] is not None:
         print(f"\nTiempos (segundos):")
         print(f"  Media:                   {stats['tiempo_medio']:.6f}")
@@ -326,8 +255,8 @@ if __name__ == "__main__":
     retos = cargar_retos_poliformat("reto_ext.txt")
     
     # Configuración
-    # TAMANIOS = [24, 32, 40, 44]
-    TAMANIOS = [24, 32, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 92, 104]
+    # TAMANIOS = [116, 128, 160, 192]
+    TAMANIOS = [24, 32, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 92, 104, 116, 128, 160, 192]
     TIMEOUT = 60.0
     
     estadisticas_por_tamanio = {}
@@ -363,15 +292,14 @@ if __name__ == "__main__":
                     motivo = resultado.get('motivo', 'max_iter')
                     print(f"✗ Fallo ({motivo})")
         
-        # CORRECCIÓN: Guardar las estadísticas calculadas
+
         stats = mostrar_resumen(resultados)
         estadisticas_por_tamanio[bits] = stats
         
         # Guardar resultados en JSON
         nombre_archivo = f"pollard_rho_resultados_{bits}bits.json"
         guardar_resultados(resultados, nombre_archivo)
-    
-    # CORRECCIÓN: Usar estadísticas guardadas para la tabla Excel
+
     archivo_excel = "pollard_rho_tabla_resumen.csv"
     generar_tabla_excel(estadisticas_por_tamanio, TAMANIOS, archivo_excel)
 
